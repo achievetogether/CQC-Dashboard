@@ -1,0 +1,112 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 8,
+            "y": 0
+          },
+          "nodeIndex": "VW_Reporting_Calendar",
+          "nodeLineageTag": "dc158b44-b552-452d-8a30-347bdbe8653c",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 352,
+            "y": 0
+          },
+          "nodeIndex": "DimServiceLocationsMapping",
+          "nodeLineageTag": "4b8457e3-95ce-42db-b9bb-731cefc73dd0",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 3
+        },
+        {
+          "location": {
+            "x": 366,
+            "y": 387
+          },
+          "nodeIndex": "FactCQCLocationsRawData",
+          "nodeLineageTag": "4baabd98-7015-4527-b836-1ad968e52ae8",
+          "size": {
+            "height": 300,
+            "width": 304
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 835,
+            "y": 0
+          },
+          "nodeIndex": "snapshotRmStatus",
+          "nodeLineageTag": "2b3fea02-7ed2-4a97-9e13-f1d57ac286a4",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 4
+        },
+        {
+          "location": {
+            "x": 912,
+            "y": 331.5
+          },
+          "nodeIndex": "Measure Table",
+          "nodeLineageTag": "99ef10c8-9407-472b-af26-464a1996e587",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1387,
+            "y": 265.5
+          },
+          "nodeIndex": "Brand Table",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1939,
+            "y": 289.5
+          },
+          "nodeIndex": "Brand Type",
+          "nodeLineageTag": "edd7b746-b9ef-4ed2-b4a0-4f694858bdec",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}
