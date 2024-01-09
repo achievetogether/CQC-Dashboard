@@ -4,7 +4,7 @@
     "annotations": [
       {
         "name": "PBI_QueryOrder",
-        "value": "[\"VW_Reporting_Calendar\",\"FactCQCLocationsRawData\",\"DimServiceLocationsMapping\",\"snapshotRmStatus\",\"Measure Table\"]"
+        "value": "[\"VW_Reporting_Calendar\",\"FactCQCLocationsRawData\",\"DimServiceLocationsMapping\",\"Measure Table\",\"Dim AT Users\"]"
       },
       {
         "name": "__PBI_TimeIntelligenceEnabled",
@@ -12,7 +12,7 @@
       },
       {
         "name": "PBIDesktopVersion",
-        "value": "2.122.746.0 (23.10)"
+        "value": "2.124.1052.0 (23.12)"
       },
       {
         "name": "PBI_ProTooling",
@@ -2616,6 +2616,609 @@
                       "State": "Suggested",
                       "Type": "Noun",
                       "Weight": 0.75
+                    }
+                  }
+                ]
+              },
+              "brand_measure": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Brand Measures"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "brand measure": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "brand degree": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "brand quantity": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "brand quota": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "brand extent": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "brand amount": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "brand portion": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "brand ration": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "brand size": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  }
+                ]
+              },
+              "brand_measure.brand_measure": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Brand Measures",
+                    "ConceptualProperty": "Brand Measures"
+                  }
+                },
+                "NameType": "Name",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "brand measure": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "brand measure name": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "brand degree": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "brand quantity": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "brand quota": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "brand extent": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "brand amount": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "brand portion": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "brand ration": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "brand size": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  }
+                ]
+              },
+              "brand_measure.brand_measures_field": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Brand Measures",
+                    "ConceptualProperty": "Brand Measures Fields"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "brand measures field": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "brand measure field": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.78
+                    }
+                  },
+                  {
+                    "field": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "measures field": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "measure field": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.7566
+                    }
+                  },
+                  {
+                    "brand measure arena": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "measure arena": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "brand measure turf": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "brand measure ground": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "brand measure pitch": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "brand measure park": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "arena": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "measure turf": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "measure ground": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "measure pitch": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "brand_measure.brand_measures_order": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Brand Measures",
+                    "ConceptualProperty": "Brand Measures Order"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "brand measures order": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "brand measure order": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.78
+                    }
+                  },
+                  {
+                    "order": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "measures order": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "measure order": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.7566
+                    }
+                  },
+                  {
+                    "brand measure instruction": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "brand measure direction": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "brand measure edict": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "measure instruction": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "measure direction": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "measure edict": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "brand measure command": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "brand measure directive": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "brand measure demand": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "brand measure mandate": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "brand_measure.list_of_brand_name_values": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Brand Measures",
+                    "ConceptualProperty": "List of Brand Name values"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "list of brand name values": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "chronology of brand name value": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.78
+                    }
+                  },
+                  {
+                    "directory of brand name value": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.757
+                    }
+                  },
+                  {
+                    "catalog of brand name value": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.757
+                    }
+                  },
+                  {
+                    "catalogue of brand name value": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.757
+                    }
+                  },
+                  {
+                    "inventory of brand name value": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.757
+                    }
+                  },
+                  {
+                    "record of brand name value": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.757
+                    }
+                  },
+                  {
+                    "list of brand nickname value": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.605
+                    }
+                  },
+                  {
+                    "list of brand title value": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.605
+                    }
+                  },
+                  {
+                    "list of brand label value": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.605
+                    }
+                  },
+                  {
+                    "list of brand tag value": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.605
                     }
                   }
                 ]
@@ -29196,1524 +29799,6 @@
                     }
                   }
                 ]
-              },
-              "snapshot_rm_status": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "snapshotRmStatus"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "snapshot rm status": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "snapshotRmStatus": {
-                      "State": "Generated",
-                      "Type": "Noun",
-                      "Weight": 0.99
-                    }
-                  },
-                  {
-                    "snapshot rm category": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.762
-                    }
-                  },
-                  {
-                    "snapshot rm importance": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.762
-                    }
-                  },
-                  {
-                    "snapshot rm prestige": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.762
-                    }
-                  },
-                  {
-                    "snapshot rm prominence": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.762
-                    }
-                  },
-                  {
-                    "snapshot rm condition": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.739
-                    }
-                  },
-                  {
-                    "snapshot rm class": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.739
-                    }
-                  },
-                  {
-                    "snapshot rm grade": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.739
-                    }
-                  },
-                  {
-                    "snapshot rm level": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.739
-                    }
-                  },
-                  {
-                    "snapshot rm position": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.739
-                    }
-                  },
-                  {
-                    "snapshot rm rank": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.739
-                    }
-                  }
-                ]
-              },
-              "snapshot_rm_status.actual_bed": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "snapshotRmStatus",
-                    "ConceptualProperty": "ActualBeds"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "actual bed": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "ActualBeds": {
-                      "State": "Generated",
-                      "Type": "Noun",
-                      "Weight": 0.99
-                    }
-                  },
-                  {
-                    "bed": {
-                      "State": "Generated",
-                      "Weight": 0.97
-                    }
-                  },
-                  {
-                    "real bed": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.582
-                    }
-                  },
-                  {
-                    "existent bed": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.582
-                    }
-                  },
-                  {
-                    "tangible bed": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.582
-                    }
-                  },
-                  {
-                    "actual divan": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.5
-                    }
-                  },
-                  {
-                    "actual cot": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.5
-                    }
-                  },
-                  {
-                    "actual bedstead": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.5
-                    }
-                  },
-                  {
-                    "divan": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.491
-                    }
-                  },
-                  {
-                    "cot": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.491
-                    }
-                  },
-                  {
-                    "bedstead": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.491
-                    }
-                  },
-                  {
-                    "actual couch": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.485
-                    }
-                  }
-                ]
-              },
-              "snapshot_rm_status.area": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "snapshotRmStatus",
-                    "ConceptualProperty": "Area"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "area": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "locale": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.736
-                    }
-                  },
-                  {
-                    "locality": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.736
-                    }
-                  },
-                  {
-                    "neighbourhood": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.736
-                    }
-                  },
-                  {
-                    "district": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.714
-                    }
-                  },
-                  {
-                    "continent": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.714
-                    }
-                  },
-                  {
-                    "neighborhood": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.714
-                    }
-                  },
-                  {
-                    "section": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.714
-                    }
-                  }
-                ]
-              },
-              "snapshot_rm_status.empty_dt": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "snapshotRmStatus",
-                    "ConceptualProperty": "Empty_Dt"
-                  }
-                },
-                "SemanticType": "Time",
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "empty dt": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "Empty_Dt": {
-                      "State": "Generated",
-                      "Type": "Noun",
-                      "Weight": 0.99
-                    }
-                  },
-                  {
-                    "date": {
-                      "State": "Generated",
-                      "Weight": 0.7
-                    }
-                  },
-                  {
-                    "dt": {
-                      "State": "Generated",
-                      "Weight": 0.97
-                    }
-                  }
-                ]
-              },
-              "snapshot_rm_status.empty_dt.variation.date_hierarchy": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "snapshotRmStatus",
-                    "Hierarchy": "Date Hierarchy",
-                    "VariationSet": "Variation",
-                    "VariationSource": "Empty_Dt"
-                  }
-                },
-                "SemanticType": "Time",
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "empty dt date hierarchy": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "date hierarchy": {
-                      "State": "Generated",
-                      "Weight": 0.97
-                    }
-                  },
-                  {
-                    "dt date hierarchy": {
-                      "State": "Generated",
-                      "Weight": 0.97
-                    }
-                  }
-                ]
-              },
-              "snapshot_rm_status.empty_dt.variation.date_hierarchy.day": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "snapshotRmStatus",
-                    "Hierarchy": "Date Hierarchy",
-                    "HierarchyLevel": "Day",
-                    "VariationSet": "Variation",
-                    "VariationSource": "Empty_Dt"
-                  }
-                },
-                "SemanticType": "Time",
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "empty dt day": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "day": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "dt day": {
-                      "State": "Generated",
-                      "Weight": 0.97
-                    }
-                  }
-                ]
-              },
-              "snapshot_rm_status.empty_dt.variation.date_hierarchy.month": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "snapshotRmStatus",
-                    "Hierarchy": "Date Hierarchy",
-                    "HierarchyLevel": "Month",
-                    "VariationSet": "Variation",
-                    "VariationSource": "Empty_Dt"
-                  }
-                },
-                "SemanticType": "Time",
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "empty dt month": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "month": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "dt month": {
-                      "State": "Generated",
-                      "Weight": 0.97
-                    }
-                  },
-                  {
-                    "empty dt mth": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.762
-                    }
-                  },
-                  {
-                    "dt mth": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.75
-                    }
-                  },
-                  {
-                    "mth": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.736
-                    }
-                  }
-                ]
-              },
-              "snapshot_rm_status.empty_dt.variation.date_hierarchy.quarter": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "snapshotRmStatus",
-                    "Hierarchy": "Date Hierarchy",
-                    "HierarchyLevel": "Quarter",
-                    "VariationSet": "Variation",
-                    "VariationSource": "Empty_Dt"
-                  }
-                },
-                "SemanticType": "Time",
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "empty dt quarter": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "quarter": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "dt quarter": {
-                      "State": "Generated",
-                      "Weight": 0.97
-                    }
-                  },
-                  {
-                    "empty dt qtr": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.846
-                    }
-                  },
-                  {
-                    "dt qtr": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.833
-                    }
-                  },
-                  {
-                    "qtr": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.818
-                    }
-                  }
-                ]
-              },
-              "snapshot_rm_status.empty_dt.variation.date_hierarchy.year": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "snapshotRmStatus",
-                    "Hierarchy": "Date Hierarchy",
-                    "HierarchyLevel": "Year",
-                    "VariationSet": "Variation",
-                    "VariationSource": "Empty_Dt"
-                  }
-                },
-                "SemanticType": "Time",
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "empty dt year": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "year": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "dt year": {
-                      "State": "Generated",
-                      "Weight": 0.97
-                    }
-                  },
-                  {
-                    "empty dt yr": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.762
-                    }
-                  },
-                  {
-                    "dt yr": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.75
-                    }
-                  },
-                  {
-                    "yr": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.736
-                    }
-                  }
-                ]
-              },
-              "snapshot_rm_status.fclty_code": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "snapshotRmStatus",
-                    "ConceptualProperty": "Fclty_Code"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "fclty code": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "Fclty_Code": {
-                      "State": "Generated",
-                      "Type": "Noun",
-                      "Weight": 0.99
-                    }
-                  },
-                  {
-                    "fclty id": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.75
-                    }
-                  },
-                  {
-                    "fclty key": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.727
-                    }
-                  }
-                ]
-              },
-              "snapshot_rm_status.incld_ocpncy_rprt": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "snapshotRmStatus",
-                    "ConceptualProperty": "Incld_Ocpncy_Rprt"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "incld ocpncy rprt": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "Incld_Ocpncy_Rprt": {
-                      "State": "Generated",
-                      "Type": "Noun",
-                      "Weight": 0.99
-                    }
-                  }
-                ]
-              },
-              "snapshot_rm_status.occupd_dt": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "snapshotRmStatus",
-                    "ConceptualProperty": "Occupd_Dt"
-                  }
-                },
-                "SemanticType": "Time",
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "occupd dt": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "Occupd_Dt": {
-                      "State": "Generated",
-                      "Type": "Noun",
-                      "Weight": 0.99
-                    }
-                  },
-                  {
-                    "date": {
-                      "State": "Generated",
-                      "Weight": 0.7
-                    }
-                  }
-                ]
-              },
-              "snapshot_rm_status.occupd_dt.variation.date_hierarchy": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "snapshotRmStatus",
-                    "Hierarchy": "Date Hierarchy",
-                    "VariationSet": "Variation",
-                    "VariationSource": "Occupd_Dt"
-                  }
-                },
-                "SemanticType": "Time",
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "occupd dt date hierarchy": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "date hierarchy": {
-                      "State": "Generated",
-                      "Weight": 0.97
-                    }
-                  }
-                ]
-              },
-              "snapshot_rm_status.occupd_dt.variation.date_hierarchy.day": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "snapshotRmStatus",
-                    "Hierarchy": "Date Hierarchy",
-                    "HierarchyLevel": "Day",
-                    "VariationSet": "Variation",
-                    "VariationSource": "Occupd_Dt"
-                  }
-                },
-                "SemanticType": "Time",
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "occupd dt day": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "day": {
-                      "State": "Generated"
-                    }
-                  }
-                ]
-              },
-              "snapshot_rm_status.occupd_dt.variation.date_hierarchy.month": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "snapshotRmStatus",
-                    "Hierarchy": "Date Hierarchy",
-                    "HierarchyLevel": "Month",
-                    "VariationSet": "Variation",
-                    "VariationSource": "Occupd_Dt"
-                  }
-                },
-                "SemanticType": "Time",
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "occupd dt month": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "month": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "occupd dt mth": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.762
-                    }
-                  },
-                  {
-                    "mth": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.736
-                    }
-                  }
-                ]
-              },
-              "snapshot_rm_status.occupd_dt.variation.date_hierarchy.quarter": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "snapshotRmStatus",
-                    "Hierarchy": "Date Hierarchy",
-                    "HierarchyLevel": "Quarter",
-                    "VariationSet": "Variation",
-                    "VariationSource": "Occupd_Dt"
-                  }
-                },
-                "SemanticType": "Time",
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "occupd dt quarter": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "quarter": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "occupd dt qtr": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.846
-                    }
-                  },
-                  {
-                    "qtr": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.818
-                    }
-                  }
-                ]
-              },
-              "snapshot_rm_status.occupd_dt.variation.date_hierarchy.year": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "snapshotRmStatus",
-                    "Hierarchy": "Date Hierarchy",
-                    "HierarchyLevel": "Year",
-                    "VariationSet": "Variation",
-                    "VariationSource": "Occupd_Dt"
-                  }
-                },
-                "SemanticType": "Time",
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "occupd dt year": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "year": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "occupd dt yr": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.762
-                    }
-                  },
-                  {
-                    "yr": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.736
-                    }
-                  }
-                ]
-              },
-              "snapshot_rm_status.ocpd": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "snapshotRmStatus",
-                    "ConceptualProperty": "Ocpd"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "ocpd": {
-                      "State": "Generated"
-                    }
-                  }
-                ]
-              },
-              "snapshot_rm_status.pst_code": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "snapshotRmStatus",
-                    "ConceptualProperty": "Pst_Code"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "pst code": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "Pst_Code": {
-                      "State": "Generated",
-                      "Type": "Noun",
-                      "Weight": 0.99
-                    }
-                  },
-                  {
-                    "pst id": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.75
-                    }
-                  },
-                  {
-                    "pst key": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.727
-                    }
-                  }
-                ]
-              },
-              "snapshot_rm_status.rgn": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "snapshotRmStatus",
-                    "ConceptualProperty": "Rgn"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "rgn": {
-                      "State": "Generated"
-                    }
-                  }
-                ]
-              },
-              "snapshot_rm_status.room": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "snapshotRmStatus",
-                    "ConceptualProperty": "Room"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "room": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "apartment": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.491
-                    }
-                  },
-                  {
-                    "chamber": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.476
-                    }
-                  },
-                  {
-                    "opportunity": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.466
-                    }
-                  },
-                  {
-                    "possibility": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.466
-                    }
-                  },
-                  {
-                    "leeway": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.466
-                    }
-                  },
-                  {
-                    "scope": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.452
-                    }
-                  },
-                  {
-                    "occasion": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.452
-                    }
-                  },
-                  {
-                    "chance": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.452
-                    }
-                  }
-                ]
-              },
-              "snapshot_rm_status.snapshotcapturedate": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "snapshotRmStatus",
-                    "ConceptualProperty": "snapshotcapturedate"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "snapshotcapturedate": {
-                      "State": "Generated"
-                    }
-                  }
-                ]
-              },
-              "snapshot_rm_status.sourcefilename": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "snapshotRmStatus",
-                    "ConceptualProperty": "sourcefilename"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "sourcefilename": {
-                      "State": "Generated"
-                    }
-                  }
-                ]
-              },
-              "snapshot_rm_status.srvc_name": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "snapshotRmStatus",
-                    "ConceptualProperty": "Srvc_Name"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "srvc name": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "Srvc_Name": {
-                      "State": "Generated",
-                      "Type": "Noun",
-                      "Weight": 0.99
-                    }
-                  },
-                  {
-                    "srvc nickname": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.727
-                    }
-                  },
-                  {
-                    "srvc title": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.727
-                    }
-                  },
-                  {
-                    "srvc label": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.727
-                    }
-                  },
-                  {
-                    "srvc tag": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.727
-                    }
-                  }
-                ]
-              },
-              "snapshot_rm_status.updatedby": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "snapshotRmStatus",
-                    "ConceptualProperty": "updatedby"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "updatedby": {
-                      "State": "Generated"
-                    }
-                  }
-                ]
-              },
-              "snapshot_rm_status.updatedtimestamp": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "snapshotRmStatus",
-                    "ConceptualProperty": "updatedtimestamp"
-                  }
-                },
-                "SemanticType": "Time",
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "updatedtimestamp": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "date": {
-                      "State": "Generated",
-                      "Weight": 0.7
-                    }
-                  }
-                ]
-              },
-              "snapshot_rm_status.updatedtimestamp.variation.date_hierarchy": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "snapshotRmStatus",
-                    "Hierarchy": "Date Hierarchy",
-                    "VariationSet": "Variation",
-                    "VariationSource": "updatedtimestamp"
-                  }
-                },
-                "SemanticType": "Time",
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "updatedtimestamp date hierarchy": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "date hierarchy": {
-                      "State": "Generated",
-                      "Weight": 0.97
-                    }
-                  }
-                ]
-              },
-              "snapshot_rm_status.updatedtimestamp.variation.date_hierarchy.day": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "snapshotRmStatus",
-                    "Hierarchy": "Date Hierarchy",
-                    "HierarchyLevel": "Day",
-                    "VariationSet": "Variation",
-                    "VariationSource": "updatedtimestamp"
-                  }
-                },
-                "SemanticType": "Time",
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "updatedtimestamp day": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "day": {
-                      "State": "Generated"
-                    }
-                  }
-                ]
-              },
-              "snapshot_rm_status.updatedtimestamp.variation.date_hierarchy.month": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "snapshotRmStatus",
-                    "Hierarchy": "Date Hierarchy",
-                    "HierarchyLevel": "Month",
-                    "VariationSet": "Variation",
-                    "VariationSource": "updatedtimestamp"
-                  }
-                },
-                "SemanticType": "Time",
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "updatedtimestamp month": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "month": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "updatedtimestamp mth": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.75
-                    }
-                  },
-                  {
-                    "mth": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.736
-                    }
-                  }
-                ]
-              },
-              "snapshot_rm_status.updatedtimestamp.variation.date_hierarchy.quarter": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "snapshotRmStatus",
-                    "Hierarchy": "Date Hierarchy",
-                    "HierarchyLevel": "Quarter",
-                    "VariationSet": "Variation",
-                    "VariationSource": "updatedtimestamp"
-                  }
-                },
-                "SemanticType": "Time",
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "updatedtimestamp quarter": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "quarter": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "updatedtimestamp qtr": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.833
-                    }
-                  },
-                  {
-                    "qtr": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.818
-                    }
-                  }
-                ]
-              },
-              "snapshot_rm_status.updatedtimestamp.variation.date_hierarchy.year": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "snapshotRmStatus",
-                    "Hierarchy": "Date Hierarchy",
-                    "HierarchyLevel": "Year",
-                    "VariationSet": "Variation",
-                    "VariationSource": "updatedtimestamp"
-                  }
-                },
-                "SemanticType": "Time",
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "updatedtimestamp year": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "year": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "updatedtimestamp yr": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.75
-                    }
-                  },
-                  {
-                    "yr": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.736
-                    }
-                  }
-                ]
-              },
-              "snapshot_rm_status.usable_bed": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "snapshotRmStatus",
-                    "ConceptualProperty": "UsableBeds"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "usable bed": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "UsableBeds": {
-                      "State": "Generated",
-                      "Type": "Noun",
-                      "Weight": 0.99
-                    }
-                  },
-                  {
-                    "bed": {
-                      "State": "Generated",
-                      "Weight": 0.97
-                    }
-                  },
-                  {
-                    "usable divan": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.5
-                    }
-                  },
-                  {
-                    "usable cot": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.5
-                    }
-                  },
-                  {
-                    "usable bedstead": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.5
-                    }
-                  },
-                  {
-                    "divan": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.491
-                    }
-                  },
-                  {
-                    "cot": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.491
-                    }
-                  },
-                  {
-                    "bedstead": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.491
-                    }
-                  },
-                  {
-                    "usable couch": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.485
-                    }
-                  },
-                  {
-                    "usable cradle": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.485
-                    }
-                  },
-                  {
-                    "usable crib": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.485
-                    }
-                  },
-                  {
-                    "couch": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.476
-                    }
-                  }
-                ]
               }
             },
             "Language": "en-US",
@@ -31853,6 +30938,85 @@
                   "VW_reporting_calendar.last_date_of_month.variation.date_hierarchy.year": {
                     "Target": {
                       "Entity": "VW_reporting_calendar.last_date_of_month.variation.date_hierarchy.year"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "brand_measure_has_list_of_brand_name_values": {
+                "Binding": {
+                  "ConceptualEntity": "Brand Measures"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "brand_measure.list_of_brand_name_values"
+                      },
+                      "Subject": {
+                        "Role": "brand_measure"
+                      }
+                    },
+                    "ID": "brand_measures_have_list_of_brand_name_values",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "brand_measure": {
+                    "Target": {
+                      "Entity": "brand_measure"
+                    }
+                  },
+                  "brand_measure.list_of_brand_name_values": {
+                    "Target": {
+                      "Entity": "brand_measure.list_of_brand_name_values"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "brand_measure_is_named_brand_measure": {
+                "Binding": {
+                  "ConceptualEntity": "Brand Measures"
+                },
+                "Phrasings": [
+                  {
+                    "ID": "brand_measures_are_names_IDs_of_brand_measures",
+                    "Name": {
+                      "Name": {
+                        "Role": "brand_measure.brand_measure"
+                      },
+                      "Subject": {
+                        "Role": "brand_measure"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "brand_measure.brand_measure"
+                      },
+                      "Subject": {
+                        "Role": "brand_measure"
+                      }
+                    },
+                    "ID": "brand_measures_have_brand_measures",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "brand_measure": {
+                    "Target": {
+                      "Entity": "brand_measure"
+                    }
+                  },
+                  "brand_measure.brand_measure": {
+                    "Target": {
+                      "Entity": "brand_measure.brand_measure"
                     }
                   }
                 },
@@ -42495,1074 +41659,6 @@
                   }
                 },
                 "State": "Generated"
-              },
-              "snapshot_rm_status_empty_dt_has_variation_date_hierarchy": {
-                "Binding": {
-                  "ConceptualEntity": "snapshotRmStatus"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "snapshot_rm_status.empty_dt.variation.date_hierarchy"
-                      },
-                      "Subject": {
-                        "Role": "snapshot_rm_status.empty_dt"
-                      }
-                    },
-                    "ID": "empty_dts_have_empty_dt_date_hierarchies",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "snapshot_rm_status.empty_dt": {
-                    "Target": {
-                      "Entity": "snapshot_rm_status.empty_dt"
-                    }
-                  },
-                  "snapshot_rm_status.empty_dt.variation.date_hierarchy": {
-                    "Target": {
-                      "Entity": "snapshot_rm_status.empty_dt.variation.date_hierarchy"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "snapshot_rm_status_empty_dt_variation_date_hierarchy_has_day": {
-                "Binding": {
-                  "ConceptualEntity": "snapshotRmStatus"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "snapshot_rm_status.empty_dt.variation.date_hierarchy.day"
-                      },
-                      "Subject": {
-                        "Role": "snapshot_rm_status.empty_dt.variation.date_hierarchy"
-                      }
-                    },
-                    "ID": "empty_dt_date_hierarchies_have_empty_dt_days",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "snapshot_rm_status.empty_dt.variation.date_hierarchy": {
-                    "Target": {
-                      "Entity": "snapshot_rm_status.empty_dt.variation.date_hierarchy"
-                    }
-                  },
-                  "snapshot_rm_status.empty_dt.variation.date_hierarchy.day": {
-                    "Target": {
-                      "Entity": "snapshot_rm_status.empty_dt.variation.date_hierarchy.day"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "snapshot_rm_status_empty_dt_variation_date_hierarchy_has_month": {
-                "Binding": {
-                  "ConceptualEntity": "snapshotRmStatus"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "snapshot_rm_status.empty_dt.variation.date_hierarchy.month"
-                      },
-                      "Subject": {
-                        "Role": "snapshot_rm_status.empty_dt.variation.date_hierarchy"
-                      }
-                    },
-                    "ID": "empty_dt_date_hierarchies_have_empty_dt_months",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "snapshot_rm_status.empty_dt.variation.date_hierarchy": {
-                    "Target": {
-                      "Entity": "snapshot_rm_status.empty_dt.variation.date_hierarchy"
-                    }
-                  },
-                  "snapshot_rm_status.empty_dt.variation.date_hierarchy.month": {
-                    "Target": {
-                      "Entity": "snapshot_rm_status.empty_dt.variation.date_hierarchy.month"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "snapshot_rm_status_empty_dt_variation_date_hierarchy_has_quarter": {
-                "Binding": {
-                  "ConceptualEntity": "snapshotRmStatus"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "snapshot_rm_status.empty_dt.variation.date_hierarchy.quarter"
-                      },
-                      "Subject": {
-                        "Role": "snapshot_rm_status.empty_dt.variation.date_hierarchy"
-                      }
-                    },
-                    "ID": "empty_dt_date_hierarchies_have_empty_dt_quarters",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "snapshot_rm_status.empty_dt.variation.date_hierarchy": {
-                    "Target": {
-                      "Entity": "snapshot_rm_status.empty_dt.variation.date_hierarchy"
-                    }
-                  },
-                  "snapshot_rm_status.empty_dt.variation.date_hierarchy.quarter": {
-                    "Target": {
-                      "Entity": "snapshot_rm_status.empty_dt.variation.date_hierarchy.quarter"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "snapshot_rm_status_empty_dt_variation_date_hierarchy_has_year": {
-                "Binding": {
-                  "ConceptualEntity": "snapshotRmStatus"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "snapshot_rm_status.empty_dt.variation.date_hierarchy.year"
-                      },
-                      "Subject": {
-                        "Role": "snapshot_rm_status.empty_dt.variation.date_hierarchy"
-                      }
-                    },
-                    "ID": "empty_dt_date_hierarchies_have_empty_dt_years",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "snapshot_rm_status.empty_dt.variation.date_hierarchy": {
-                    "Target": {
-                      "Entity": "snapshot_rm_status.empty_dt.variation.date_hierarchy"
-                    }
-                  },
-                  "snapshot_rm_status.empty_dt.variation.date_hierarchy.year": {
-                    "Target": {
-                      "Entity": "snapshot_rm_status.empty_dt.variation.date_hierarchy.year"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "snapshot_rm_status_has_actual_bed": {
-                "Binding": {
-                  "ConceptualEntity": "snapshotRmStatus"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "snapshot_rm_status.actual_bed"
-                      },
-                      "Subject": {
-                        "Role": "snapshot_rm_status"
-                      }
-                    },
-                    "ID": "snapshot_rm_statuses_have_actual_beds",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "snapshot_rm_status": {
-                    "Target": {
-                      "Entity": "snapshot_rm_status"
-                    }
-                  },
-                  "snapshot_rm_status.actual_bed": {
-                    "Target": {
-                      "Entity": "snapshot_rm_status.actual_bed"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "snapshot_rm_status_has_area": {
-                "Binding": {
-                  "ConceptualEntity": "snapshotRmStatus"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "snapshot_rm_status.area"
-                      },
-                      "Subject": {
-                        "Role": "snapshot_rm_status"
-                      }
-                    },
-                    "ID": "snapshot_rm_statuses_have_areas",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "snapshot_rm_status": {
-                    "Target": {
-                      "Entity": "snapshot_rm_status"
-                    }
-                  },
-                  "snapshot_rm_status.area": {
-                    "Target": {
-                      "Entity": "snapshot_rm_status.area"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "snapshot_rm_status_has_empty_dt": {
-                "Binding": {
-                  "ConceptualEntity": "snapshotRmStatus"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "snapshot_rm_status.empty_dt"
-                      },
-                      "Subject": {
-                        "Role": "snapshot_rm_status"
-                      }
-                    },
-                    "ID": "snapshot_rm_statuses_have_empty_dts",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "snapshot_rm_status": {
-                    "Target": {
-                      "Entity": "snapshot_rm_status"
-                    }
-                  },
-                  "snapshot_rm_status.empty_dt": {
-                    "Target": {
-                      "Entity": "snapshot_rm_status.empty_dt"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "snapshot_rm_status_has_fclty_code": {
-                "Binding": {
-                  "ConceptualEntity": "snapshotRmStatus"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "snapshot_rm_status.fclty_code"
-                      },
-                      "Subject": {
-                        "Role": "snapshot_rm_status"
-                      }
-                    },
-                    "ID": "snapshot_rm_statuses_have_fclty_codes",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "snapshot_rm_status": {
-                    "Target": {
-                      "Entity": "snapshot_rm_status"
-                    }
-                  },
-                  "snapshot_rm_status.fclty_code": {
-                    "Target": {
-                      "Entity": "snapshot_rm_status.fclty_code"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "snapshot_rm_status_has_incld_ocpncy_rprt": {
-                "Binding": {
-                  "ConceptualEntity": "snapshotRmStatus"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "snapshot_rm_status.incld_ocpncy_rprt"
-                      },
-                      "Subject": {
-                        "Role": "snapshot_rm_status"
-                      }
-                    },
-                    "ID": "snapshot_rm_statuses_have_incld_ocpncy_rprts",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "snapshot_rm_status": {
-                    "Target": {
-                      "Entity": "snapshot_rm_status"
-                    }
-                  },
-                  "snapshot_rm_status.incld_ocpncy_rprt": {
-                    "Target": {
-                      "Entity": "snapshot_rm_status.incld_ocpncy_rprt"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "snapshot_rm_status_has_occupd_dt": {
-                "Binding": {
-                  "ConceptualEntity": "snapshotRmStatus"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "snapshot_rm_status.occupd_dt"
-                      },
-                      "Subject": {
-                        "Role": "snapshot_rm_status"
-                      }
-                    },
-                    "ID": "snapshot_rm_statuses_have_occupd_dts",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "snapshot_rm_status": {
-                    "Target": {
-                      "Entity": "snapshot_rm_status"
-                    }
-                  },
-                  "snapshot_rm_status.occupd_dt": {
-                    "Target": {
-                      "Entity": "snapshot_rm_status.occupd_dt"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "snapshot_rm_status_has_ocpd": {
-                "Binding": {
-                  "ConceptualEntity": "snapshotRmStatus"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "snapshot_rm_status.ocpd"
-                      },
-                      "Subject": {
-                        "Role": "snapshot_rm_status"
-                      }
-                    },
-                    "ID": "snapshot_rm_statuses_have_ocpds",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "snapshot_rm_status": {
-                    "Target": {
-                      "Entity": "snapshot_rm_status"
-                    }
-                  },
-                  "snapshot_rm_status.ocpd": {
-                    "Target": {
-                      "Entity": "snapshot_rm_status.ocpd"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "snapshot_rm_status_has_pst_code": {
-                "Binding": {
-                  "ConceptualEntity": "snapshotRmStatus"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "snapshot_rm_status.pst_code"
-                      },
-                      "Subject": {
-                        "Role": "snapshot_rm_status"
-                      }
-                    },
-                    "ID": "snapshot_rm_statuses_have_pst_codes",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "snapshot_rm_status": {
-                    "Target": {
-                      "Entity": "snapshot_rm_status"
-                    }
-                  },
-                  "snapshot_rm_status.pst_code": {
-                    "Target": {
-                      "Entity": "snapshot_rm_status.pst_code"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "snapshot_rm_status_has_rgn": {
-                "Binding": {
-                  "ConceptualEntity": "snapshotRmStatus"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "snapshot_rm_status.rgn"
-                      },
-                      "Subject": {
-                        "Role": "snapshot_rm_status"
-                      }
-                    },
-                    "ID": "snapshot_rm_statuses_have_rgns",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "snapshot_rm_status": {
-                    "Target": {
-                      "Entity": "snapshot_rm_status"
-                    }
-                  },
-                  "snapshot_rm_status.rgn": {
-                    "Target": {
-                      "Entity": "snapshot_rm_status.rgn"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "snapshot_rm_status_has_room": {
-                "Binding": {
-                  "ConceptualEntity": "snapshotRmStatus"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "snapshot_rm_status.room"
-                      },
-                      "Subject": {
-                        "Role": "snapshot_rm_status"
-                      }
-                    },
-                    "ID": "snapshot_rm_statuses_have_rooms",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "snapshot_rm_status": {
-                    "Target": {
-                      "Entity": "snapshot_rm_status"
-                    }
-                  },
-                  "snapshot_rm_status.room": {
-                    "Target": {
-                      "Entity": "snapshot_rm_status.room"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "snapshot_rm_status_has_snapshotcapturedate": {
-                "Binding": {
-                  "ConceptualEntity": "snapshotRmStatus"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "snapshot_rm_status.snapshotcapturedate"
-                      },
-                      "Subject": {
-                        "Role": "snapshot_rm_status"
-                      }
-                    },
-                    "ID": "snapshot_rm_statuses_have_snapshotcapturedates",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "snapshot_rm_status": {
-                    "Target": {
-                      "Entity": "snapshot_rm_status"
-                    }
-                  },
-                  "snapshot_rm_status.snapshotcapturedate": {
-                    "Target": {
-                      "Entity": "snapshot_rm_status.snapshotcapturedate"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "snapshot_rm_status_has_sourcefilename": {
-                "Binding": {
-                  "ConceptualEntity": "snapshotRmStatus"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "snapshot_rm_status.sourcefilename"
-                      },
-                      "Subject": {
-                        "Role": "snapshot_rm_status"
-                      }
-                    },
-                    "ID": "snapshot_rm_statuses_have_sourcefilenames",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "snapshot_rm_status": {
-                    "Target": {
-                      "Entity": "snapshot_rm_status"
-                    }
-                  },
-                  "snapshot_rm_status.sourcefilename": {
-                    "Target": {
-                      "Entity": "snapshot_rm_status.sourcefilename"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "snapshot_rm_status_has_srvc_name": {
-                "Binding": {
-                  "ConceptualEntity": "snapshotRmStatus"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "snapshot_rm_status.srvc_name"
-                      },
-                      "Subject": {
-                        "Role": "snapshot_rm_status"
-                      }
-                    },
-                    "ID": "snapshot_rm_statuses_have_srvc_names",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "snapshot_rm_status": {
-                    "Target": {
-                      "Entity": "snapshot_rm_status"
-                    }
-                  },
-                  "snapshot_rm_status.srvc_name": {
-                    "Target": {
-                      "Entity": "snapshot_rm_status.srvc_name"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "snapshot_rm_status_has_updatedby": {
-                "Binding": {
-                  "ConceptualEntity": "snapshotRmStatus"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "snapshot_rm_status.updatedby"
-                      },
-                      "Subject": {
-                        "Role": "snapshot_rm_status"
-                      }
-                    },
-                    "ID": "snapshot_rm_statuses_have_updatedbies",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "snapshot_rm_status": {
-                    "Target": {
-                      "Entity": "snapshot_rm_status"
-                    }
-                  },
-                  "snapshot_rm_status.updatedby": {
-                    "Target": {
-                      "Entity": "snapshot_rm_status.updatedby"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "snapshot_rm_status_has_updatedtimestamp": {
-                "Binding": {
-                  "ConceptualEntity": "snapshotRmStatus"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "snapshot_rm_status.updatedtimestamp"
-                      },
-                      "Subject": {
-                        "Role": "snapshot_rm_status"
-                      }
-                    },
-                    "ID": "snapshot_rm_statuses_have_updatedtimestamps",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "snapshot_rm_status": {
-                    "Target": {
-                      "Entity": "snapshot_rm_status"
-                    }
-                  },
-                  "snapshot_rm_status.updatedtimestamp": {
-                    "Target": {
-                      "Entity": "snapshot_rm_status.updatedtimestamp"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "snapshot_rm_status_has_usable_bed": {
-                "Binding": {
-                  "ConceptualEntity": "snapshotRmStatus"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "snapshot_rm_status.usable_bed"
-                      },
-                      "Subject": {
-                        "Role": "snapshot_rm_status"
-                      }
-                    },
-                    "ID": "snapshot_rm_statuses_have_usable_beds",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "snapshot_rm_status": {
-                    "Target": {
-                      "Entity": "snapshot_rm_status"
-                    }
-                  },
-                  "snapshot_rm_status.usable_bed": {
-                    "Target": {
-                      "Entity": "snapshot_rm_status.usable_bed"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "snapshot_rm_status_in_area": {
-                "Binding": {
-                  "ConceptualEntity": "snapshotRmStatus"
-                },
-                "Phrasings": [
-                  {
-                    "ID": "snapshot_rm_statuses_are_in_areas",
-                    "Preposition": {
-                      "Object": {
-                        "Role": "snapshot_rm_status.area"
-                      },
-                      "Prepositions": [
-                        {
-                          "in": {
-                            "State": "Generated"
-                          }
-                        }
-                      ],
-                      "Subject": {
-                        "Role": "snapshot_rm_status"
-                      }
-                    },
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "snapshot_rm_status": {
-                    "Target": {
-                      "Entity": "snapshot_rm_status"
-                    }
-                  },
-                  "snapshot_rm_status.area": {
-                    "Target": {
-                      "Entity": "snapshot_rm_status.area"
-                    }
-                  }
-                },
-                "SemanticSlots": {
-                  "Where": {
-                    "Role": "snapshot_rm_status.area"
-                  }
-                },
-                "State": "Generated"
-              },
-              "snapshot_rm_status_occupd_dt_has_variation_date_hierarchy": {
-                "Binding": {
-                  "ConceptualEntity": "snapshotRmStatus"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "snapshot_rm_status.occupd_dt.variation.date_hierarchy"
-                      },
-                      "Subject": {
-                        "Role": "snapshot_rm_status.occupd_dt"
-                      }
-                    },
-                    "ID": "occupd_dts_have_occupd_dt_date_hierarchies",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "snapshot_rm_status.occupd_dt": {
-                    "Target": {
-                      "Entity": "snapshot_rm_status.occupd_dt"
-                    }
-                  },
-                  "snapshot_rm_status.occupd_dt.variation.date_hierarchy": {
-                    "Target": {
-                      "Entity": "snapshot_rm_status.occupd_dt.variation.date_hierarchy"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "snapshot_rm_status_occupd_dt_variation_date_hierarchy_has_day": {
-                "Binding": {
-                  "ConceptualEntity": "snapshotRmStatus"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "snapshot_rm_status.occupd_dt.variation.date_hierarchy.day"
-                      },
-                      "Subject": {
-                        "Role": "snapshot_rm_status.occupd_dt.variation.date_hierarchy"
-                      }
-                    },
-                    "ID": "occupd_dt_date_hierarchies_have_occupd_dt_days",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "snapshot_rm_status.occupd_dt.variation.date_hierarchy": {
-                    "Target": {
-                      "Entity": "snapshot_rm_status.occupd_dt.variation.date_hierarchy"
-                    }
-                  },
-                  "snapshot_rm_status.occupd_dt.variation.date_hierarchy.day": {
-                    "Target": {
-                      "Entity": "snapshot_rm_status.occupd_dt.variation.date_hierarchy.day"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "snapshot_rm_status_occupd_dt_variation_date_hierarchy_has_month": {
-                "Binding": {
-                  "ConceptualEntity": "snapshotRmStatus"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "snapshot_rm_status.occupd_dt.variation.date_hierarchy.month"
-                      },
-                      "Subject": {
-                        "Role": "snapshot_rm_status.occupd_dt.variation.date_hierarchy"
-                      }
-                    },
-                    "ID": "occupd_dt_date_hierarchies_have_occupd_dt_months",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "snapshot_rm_status.occupd_dt.variation.date_hierarchy": {
-                    "Target": {
-                      "Entity": "snapshot_rm_status.occupd_dt.variation.date_hierarchy"
-                    }
-                  },
-                  "snapshot_rm_status.occupd_dt.variation.date_hierarchy.month": {
-                    "Target": {
-                      "Entity": "snapshot_rm_status.occupd_dt.variation.date_hierarchy.month"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "snapshot_rm_status_occupd_dt_variation_date_hierarchy_has_quarter": {
-                "Binding": {
-                  "ConceptualEntity": "snapshotRmStatus"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "snapshot_rm_status.occupd_dt.variation.date_hierarchy.quarter"
-                      },
-                      "Subject": {
-                        "Role": "snapshot_rm_status.occupd_dt.variation.date_hierarchy"
-                      }
-                    },
-                    "ID": "occupd_dt_date_hierarchies_have_occupd_dt_quarters",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "snapshot_rm_status.occupd_dt.variation.date_hierarchy": {
-                    "Target": {
-                      "Entity": "snapshot_rm_status.occupd_dt.variation.date_hierarchy"
-                    }
-                  },
-                  "snapshot_rm_status.occupd_dt.variation.date_hierarchy.quarter": {
-                    "Target": {
-                      "Entity": "snapshot_rm_status.occupd_dt.variation.date_hierarchy.quarter"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "snapshot_rm_status_occupd_dt_variation_date_hierarchy_has_year": {
-                "Binding": {
-                  "ConceptualEntity": "snapshotRmStatus"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "snapshot_rm_status.occupd_dt.variation.date_hierarchy.year"
-                      },
-                      "Subject": {
-                        "Role": "snapshot_rm_status.occupd_dt.variation.date_hierarchy"
-                      }
-                    },
-                    "ID": "occupd_dt_date_hierarchies_have_occupd_dt_years",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "snapshot_rm_status.occupd_dt.variation.date_hierarchy": {
-                    "Target": {
-                      "Entity": "snapshot_rm_status.occupd_dt.variation.date_hierarchy"
-                    }
-                  },
-                  "snapshot_rm_status.occupd_dt.variation.date_hierarchy.year": {
-                    "Target": {
-                      "Entity": "snapshot_rm_status.occupd_dt.variation.date_hierarchy.year"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "snapshot_rm_status_updatedtimestamp_has_variation_date_hierarchy": {
-                "Binding": {
-                  "ConceptualEntity": "snapshotRmStatus"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "snapshot_rm_status.updatedtimestamp.variation.date_hierarchy"
-                      },
-                      "Subject": {
-                        "Role": "snapshot_rm_status.updatedtimestamp"
-                      }
-                    },
-                    "ID": "updatedtimestamps_have_updatedtimestamp_date_hierarchies1",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "snapshot_rm_status.updatedtimestamp": {
-                    "Target": {
-                      "Entity": "snapshot_rm_status.updatedtimestamp"
-                    }
-                  },
-                  "snapshot_rm_status.updatedtimestamp.variation.date_hierarchy": {
-                    "Target": {
-                      "Entity": "snapshot_rm_status.updatedtimestamp.variation.date_hierarchy"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "snapshot_rm_status_updatedtimestamp_variation_date_hierarchy_has_day": {
-                "Binding": {
-                  "ConceptualEntity": "snapshotRmStatus"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "snapshot_rm_status.updatedtimestamp.variation.date_hierarchy.day"
-                      },
-                      "Subject": {
-                        "Role": "snapshot_rm_status.updatedtimestamp.variation.date_hierarchy"
-                      }
-                    },
-                    "ID": "updatedtimestamp_date_hierarchies_have_updatedtimestamp_days1",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "snapshot_rm_status.updatedtimestamp.variation.date_hierarchy": {
-                    "Target": {
-                      "Entity": "snapshot_rm_status.updatedtimestamp.variation.date_hierarchy"
-                    }
-                  },
-                  "snapshot_rm_status.updatedtimestamp.variation.date_hierarchy.day": {
-                    "Target": {
-                      "Entity": "snapshot_rm_status.updatedtimestamp.variation.date_hierarchy.day"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "snapshot_rm_status_updatedtimestamp_variation_date_hierarchy_has_month": {
-                "Binding": {
-                  "ConceptualEntity": "snapshotRmStatus"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "snapshot_rm_status.updatedtimestamp.variation.date_hierarchy.month"
-                      },
-                      "Subject": {
-                        "Role": "snapshot_rm_status.updatedtimestamp.variation.date_hierarchy"
-                      }
-                    },
-                    "ID": "updatedtimestamp_date_hierarchies_have_updatedtimestamp_months1",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "snapshot_rm_status.updatedtimestamp.variation.date_hierarchy": {
-                    "Target": {
-                      "Entity": "snapshot_rm_status.updatedtimestamp.variation.date_hierarchy"
-                    }
-                  },
-                  "snapshot_rm_status.updatedtimestamp.variation.date_hierarchy.month": {
-                    "Target": {
-                      "Entity": "snapshot_rm_status.updatedtimestamp.variation.date_hierarchy.month"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "snapshot_rm_status_updatedtimestamp_variation_date_hierarchy_has_quarter": {
-                "Binding": {
-                  "ConceptualEntity": "snapshotRmStatus"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "snapshot_rm_status.updatedtimestamp.variation.date_hierarchy.quarter"
-                      },
-                      "Subject": {
-                        "Role": "snapshot_rm_status.updatedtimestamp.variation.date_hierarchy"
-                      }
-                    },
-                    "ID": "updatedtimestamp_date_hierarchies_have_updatedtimestamp_quarters1",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "snapshot_rm_status.updatedtimestamp.variation.date_hierarchy": {
-                    "Target": {
-                      "Entity": "snapshot_rm_status.updatedtimestamp.variation.date_hierarchy"
-                    }
-                  },
-                  "snapshot_rm_status.updatedtimestamp.variation.date_hierarchy.quarter": {
-                    "Target": {
-                      "Entity": "snapshot_rm_status.updatedtimestamp.variation.date_hierarchy.quarter"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "snapshot_rm_status_updatedtimestamp_variation_date_hierarchy_has_year": {
-                "Binding": {
-                  "ConceptualEntity": "snapshotRmStatus"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "snapshot_rm_status.updatedtimestamp.variation.date_hierarchy.year"
-                      },
-                      "Subject": {
-                        "Role": "snapshot_rm_status.updatedtimestamp.variation.date_hierarchy"
-                      }
-                    },
-                    "ID": "updatedtimestamp_date_hierarchies_have_updatedtimestamp_years1",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "snapshot_rm_status.updatedtimestamp.variation.date_hierarchy": {
-                    "Target": {
-                      "Entity": "snapshot_rm_status.updatedtimestamp.variation.date_hierarchy"
-                    }
-                  },
-                  "snapshot_rm_status.updatedtimestamp.variation.date_hierarchy.year": {
-                    "Target": {
-                      "Entity": "snapshot_rm_status.updatedtimestamp.variation.date_hierarchy.year"
-                    }
-                  }
-                },
-                "State": "Generated"
               }
             },
             "Version": "3.5.0"
@@ -43658,30 +41754,6 @@
         "toTable": "LocalDateTable_27dfda91-5e84-4008-93dd-450c14b32344"
       },
       {
-        "name": "9e7a2764-bf10-46cd-83c3-881cb6c6cc09",
-        "fromColumn": "Occupd_Dt",
-        "fromTable": "snapshotRmStatus",
-        "joinOnDateBehavior": "datePartOnly",
-        "toColumn": "Date",
-        "toTable": "LocalDateTable_7ab8d73d-cab4-49e8-a541-6b8a54e1cdf9"
-      },
-      {
-        "name": "4bb792fd-e533-4ecc-8a78-8256545023c6",
-        "fromColumn": "Empty_Dt",
-        "fromTable": "snapshotRmStatus",
-        "joinOnDateBehavior": "datePartOnly",
-        "toColumn": "Date",
-        "toTable": "LocalDateTable_6250581c-74dd-44c9-bfa1-24a3680687d2"
-      },
-      {
-        "name": "d795361e-4d7c-47ed-91fd-4e2ada0eddc8",
-        "fromColumn": "updatedtimestamp",
-        "fromTable": "snapshotRmStatus",
-        "joinOnDateBehavior": "datePartOnly",
-        "toColumn": "Date",
-        "toTable": "LocalDateTable_81ba8da9-079e-4b0e-a5f2-6df6bb3fe8ef"
-      },
-      {
         "name": "a2163c01-3383-48e3-b70b-42d98c23df60",
         "crossFilteringBehavior": "bothDirections",
         "fromColumn": "Location ID",
@@ -43689,15 +41761,6 @@
         "toCardinality": "many",
         "toColumn": "Regulator ID",
         "toTable": "DimServiceLocationsMapping"
-      },
-      {
-        "name": "0244fa44-224e-4f8d-9404-36f5a8d979d0",
-        "crossFilteringBehavior": "bothDirections",
-        "fromColumn": "Facility Code",
-        "fromTable": "DimServiceLocationsMapping",
-        "toCardinality": "many",
-        "toColumn": "Fclty_Code",
-        "toTable": "snapshotRmStatus"
       },
       {
         "name": "a33ab5e4-3d9c-43df-b698-1e256e80211c",
@@ -43731,20 +41794,103 @@
         "toTable": "Brand Table"
       },
       {
-        "name": "350d0c7f-12de-4eb5-b867-074bb9d7dbff",
-        "fromColumn": "Current rating date",
-        "fromTable": "FactCQCLocationsRawData",
-        "joinOnDateBehavior": "datePartOnly",
-        "toColumn": "Date",
-        "toTable": "LocalDateTable_8a45136e-a113-43e7-be70-18ddbc414101"
-      },
-      {
         "name": "83c25115-baa5-4e66-bfa3-70495994691e",
         "fromColumn": "Previous rating date",
         "fromTable": "FactCQCLocationsRawData",
         "joinOnDateBehavior": "datePartOnly",
         "toColumn": "Date",
         "toTable": "LocalDateTable_652ddc53-9500-4d4f-a91c-3f4797415e3a"
+      },
+      {
+        "name": "79c88651-7434-4bdb-ab16-2b70bffdec15",
+        "fromColumn": "Facility Code",
+        "fromTable": "DimServiceLocationsMapping",
+        "toColumn": "Facility Code",
+        "toTable": "Dim AT Users"
+      },
+      {
+        "name": "75af8c9a-9db6-4d92-9eb5-3db71f0643a8",
+        "fromColumn": "Current rating date",
+        "fromTable": "FactCQCLocationsRawData",
+        "joinOnDateBehavior": "datePartOnly",
+        "toColumn": "Date",
+        "toTable": "LocalDateTable_260bd2f0-0593-4e49-9b6b-05d3e6bcc6f9"
+      }
+    ],
+    "roles": [
+      {
+        "name": "Central&Executives&DirectorOfOps",
+        "annotations": [
+          {
+            "name": "PBI_Id",
+            "value": "1ed9259c171a4178ae7a3695c0789fad"
+          }
+        ],
+        "modelPermission": "read"
+      },
+      {
+        "name": "HeadofOps",
+        "annotations": [
+          {
+            "name": "PBI_Id",
+            "value": "765fcc04898f4a379450a5aef1fda7fd"
+          }
+        ],
+        "modelPermission": "read",
+        "tablePermissions": [
+          {
+            "name": "Dim AT Users",
+            "filterExpression": "[Head of Ops] = USERPRINCIPALNAME()"
+          }
+        ]
+      },
+      {
+        "name": "HomeManager",
+        "annotations": [
+          {
+            "name": "PBI_Id",
+            "value": "6658e412c7da43e4ac42f19857a60966"
+          }
+        ],
+        "modelPermission": "read",
+        "tablePermissions": [
+          {
+            "name": "Dim AT Users",
+            "filterExpression": "[Home Manager] = USERPRINCIPALNAME()"
+          }
+        ]
+      },
+      {
+        "name": "DomcareManager",
+        "annotations": [
+          {
+            "name": "PBI_Id",
+            "value": "518151efa79f4ab1a735a6ffff86d1ea"
+          }
+        ],
+        "modelPermission": "read",
+        "tablePermissions": [
+          {
+            "name": "Dim AT Users",
+            "filterExpression": "[Domcare Manager Email] = USERPRINCIPALNAME()"
+          }
+        ]
+      },
+      {
+        "name": "RegionalManager",
+        "annotations": [
+          {
+            "name": "PBI_Id",
+            "value": "ce1d27b6b4314bc09d61bd239f64b242"
+          }
+        ],
+        "modelPermission": "read",
+        "tablePermissions": [
+          {
+            "name": "Dim AT Users",
+            "filterExpression": "[Regional Manager] = USERPRINCIPALNAME()"
+          }
+        ]
       }
     ],
     "sourceQueryCulture": "en-US",
@@ -43755,6 +41901,10 @@
           {
             "name": "PBI_ResultType",
             "value": "Table"
+          },
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
           }
         ],
         "columns": [
@@ -46795,6 +44945,10 @@
               {
                 "name": "SummarizationSetBy",
                 "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isDateTimeCustom\":true}"
               }
             ],
             "dataType": "dateTime",
@@ -46803,11 +44957,11 @@
               "",
               "CALCULATE(",
               "    MAX('FactCQCLocationsRawData'[Publication Date]),",
-              "    ALLEXCEPT(FactCQCLocationsRawData,FactCQCLocationsRawData[Location ID]",
-              ")",
-              ")"
+              "    ALLEXCEPT(FactCQCLocationsRawData,FactCQCLocationsRawData[Location ID],",
+              "    FactCQCLocationsRawData[Location Name]",
+              "))"
             ],
-            "formatString": "General Date",
+            "formatString": "mm/dd/yyyy",
             "isDataTypeInferred": true,
             "lineageTag": "0a685fdb-dc54-439d-bc9e-00844c669da1",
             "summarizeBy": "none",
@@ -46817,10 +44971,10 @@
                 "name": "Variation",
                 "defaultHierarchy": {
                   "hierarchy": "Date Hierarchy",
-                  "table": "LocalDateTable_8a45136e-a113-43e7-be70-18ddbc414101"
+                  "table": "LocalDateTable_260bd2f0-0593-4e49-9b6b-05d3e6bcc6f9"
                 },
                 "isDefault": true,
-                "relationship": "350d0c7f-12de-4eb5-b867-074bb9d7dbff"
+                "relationship": "75af8c9a-9db6-4d92-9eb5-3db71f0643a8"
               }
             ]
           },
@@ -46852,10 +45006,11 @@
               "",
               "VAR CurrentDate = 'FactCQCLocationsRawData'[Publication Date]",
               "Var Selected = FactCQCLocationsRawData[Current rating date]",
-              "RETURN",
-              "  ",
-              "    IF('FactCQCLocationsRawData'[Publication Date] = Selected,FactCQCLocationsRawData[Latest Rating]",
-              ")"
+              "",
+              "  Var A = ",
+              "    IF('FactCQCLocationsRawData'[Publication Date] = Selected,FactCQCLocationsRawData[Latest Rating]    ",
+              ")",
+              "Return A //CALCULATE(A,ALLEXCEPT(FactCQCLocationsRawData,FactCQCLocationsRawData[Location Name]))"
             ],
             "isDataTypeInferred": true,
             "lineageTag": "92118035-a84c-4632-8ce4-b683f1078048",
@@ -46891,6 +45046,10 @@
               {
                 "name": "SummarizationSetBy",
                 "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isDateTimeCustom\":true}"
               }
             ],
             "dataType": "dateTime",
@@ -46903,7 +45062,7 @@
               ")",
               ")"
             ],
-            "formatString": "General Date",
+            "formatString": "mm/dd/yyyy",
             "isDataTypeInferred": true,
             "lineageTag": "1d482ff5-aecd-4108-a5ce-6e1503960950",
             "summarizeBy": "none",
@@ -46919,6 +45078,33 @@
                 "relationship": "83c25115-baa5-4e66-bfa3-70495994691e"
               }
             ]
+          },
+          {
+            "name": "Current Rating Slicer",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "expression": [
+              "",
+              "SWITCH(",
+              "    TRUE(),",
+              "    FactCQCLocationsRawData[Current rating]  =\"Good\",\"Good\",",
+              "    FactCQCLocationsRawData[Current rating]  =\"Outstanding\",\"Outstanding\",",
+              "    FactCQCLocationsRawData[Current rating]  =\"Requires improvement\",\"Requires improvement\",",
+              "    FactCQCLocationsRawData[Current rating]  =\"Inadequate\",\"Inadequate\",",
+              "    \"Inspected but not rated\"",
+              "    ",
+              ")",
+              ""
+            ],
+            "isDataTypeInferred": true,
+            "lineageTag": "34695619-a71c-4c91-947b-137bcff86cc4",
+            "summarizeBy": "none",
+            "type": "calculated"
           }
         ],
         "lineageTag": "4baabd98-7015-4527-b836-1ad968e52ae8",
@@ -46972,11 +45158,12 @@
               "",
               "VAR CurrentDate = MAX('FactCQCLocationsRawData'[Publication Date])",
               "Var Selected = max(FactCQCLocationsRawData[Current rating date])",
-              "RETURN",
-              "  ",
+              "",
+              "  Var A = ",
               "    // IF('FactCQCLocationsRawData'[Publication Date] = Selected,FactCQCLocationsRawData[Latest Rating]",
-              "    CALCULATE(MAX(FactCQCLocationsRawData[Latest Rating]),FactCQCLocationsRawData[Publication Date]=Selected,ALLEXCEPT(FactCQCLocationsRawData,FactCQCLocationsRawData[Location Name])",
-              ")"
+              "    CALCULATE(MAX(FactCQCLocationsRawData[Latest Rating]),FactCQCLocationsRawData[Publication Date]=Selected",
+              ")",
+              "RETURN COALESCE(A,\"Inspected but not rated\")"
             ],
             "lineageTag": "7436d3a8-1c2f-4d26-807c-de26e008f7b6"
           },
@@ -49331,6 +47518,19 @@
             "lineageTag": "38e38e5b-2896-46b7-9c14-e04e11d65d8a",
             "sourceColumn": "DCA_Manager",
             "summarizeBy": "none"
+          },
+          {
+            "name": "Full_Address",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "e5e1520b-5cb9-41f0-91a2-9c4370c43c17",
+            "sourceColumn": "Full_Address",
+            "summarizeBy": "none"
           }
         ],
         "lineageTag": "4b8457e3-95ce-42db-b9bb-731cefc73dd0",
@@ -49350,891 +47550,6 @@
             }
           }
         ]
-      },
-      {
-        "name": "snapshotRmStatus",
-        "annotations": [
-          {
-            "name": "PBI_ResultType",
-            "value": "Table"
-          }
-        ],
-        "columns": [
-          {
-            "name": "Fclty_Code",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "string",
-            "lineageTag": "2d109ec1-faf1-48c1-8801-98f7591f24e6",
-            "sourceColumn": "Fclty_Code",
-            "summarizeBy": "none"
-          },
-          {
-            "name": "Srvc_Name",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "string",
-            "lineageTag": "5e7c727f-f33d-4a63-a510-c2b07192977e",
-            "sourceColumn": "Srvc_Name",
-            "summarizeBy": "none"
-          },
-          {
-            "name": "Rgn",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "string",
-            "lineageTag": "260216f0-fe9a-4f8e-91ad-16f097d9eb07",
-            "sourceColumn": "Rgn",
-            "summarizeBy": "none"
-          },
-          {
-            "name": "Area",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "string",
-            "lineageTag": "dae4fdf2-1b16-4cde-82f1-4e62ebfa095a",
-            "sourceColumn": "Area",
-            "summarizeBy": "none"
-          },
-          {
-            "name": "Room",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "string",
-            "lineageTag": "ec53f12e-2373-4c24-9ced-5cb860d15afc",
-            "sourceColumn": "Room",
-            "summarizeBy": "none"
-          },
-          {
-            "name": "Pst_Code",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "string",
-            "lineageTag": "98517d9a-13d3-45ca-b6e6-689cfd60f840",
-            "sourceColumn": "Pst_Code",
-            "summarizeBy": "none"
-          },
-          {
-            "name": "Ocpd",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "string",
-            "lineageTag": "25867465-d81e-4681-a422-04376b7a4788",
-            "sourceColumn": "Ocpd",
-            "summarizeBy": "none"
-          },
-          {
-            "name": "Occupd_Dt",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              },
-              {
-                "name": "UnderlyingDateTimeDataType",
-                "value": "Date"
-              }
-            ],
-            "dataType": "dateTime",
-            "formatString": "Long Date",
-            "lineageTag": "57bcb1b4-1111-48cd-9a58-bc8db245119a",
-            "sourceColumn": "Occupd_Dt",
-            "summarizeBy": "none",
-            "variations": [
-              {
-                "name": "Variation",
-                "defaultHierarchy": {
-                  "hierarchy": "Date Hierarchy",
-                  "table": "LocalDateTable_7ab8d73d-cab4-49e8-a541-6b8a54e1cdf9"
-                },
-                "isDefault": true,
-                "relationship": "9e7a2764-bf10-46cd-83c3-881cb6c6cc09"
-              }
-            ]
-          },
-          {
-            "name": "Empty_Dt",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              },
-              {
-                "name": "UnderlyingDateTimeDataType",
-                "value": "Date"
-              }
-            ],
-            "dataType": "dateTime",
-            "formatString": "Long Date",
-            "lineageTag": "cb041bf2-3dab-4168-a97e-4da9ae31df27",
-            "sourceColumn": "Empty_Dt",
-            "summarizeBy": "none",
-            "variations": [
-              {
-                "name": "Variation",
-                "defaultHierarchy": {
-                  "hierarchy": "Date Hierarchy",
-                  "table": "LocalDateTable_6250581c-74dd-44c9-bfa1-24a3680687d2"
-                },
-                "isDefault": true,
-                "relationship": "4bb792fd-e533-4ecc-8a78-8256545023c6"
-              }
-            ]
-          },
-          {
-            "name": "Incld_Ocpncy_Rprt",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "string",
-            "lineageTag": "f8351964-7c7e-468f-a13f-1772254851ba",
-            "sourceColumn": "Incld_Ocpncy_Rprt",
-            "summarizeBy": "none"
-          },
-          {
-            "name": "updatedtimestamp",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "dateTime",
-            "formatString": "General Date",
-            "lineageTag": "cf059088-2010-42a8-9512-99359483ee57",
-            "sourceColumn": "updatedtimestamp",
-            "summarizeBy": "none",
-            "variations": [
-              {
-                "name": "Variation",
-                "defaultHierarchy": {
-                  "hierarchy": "Date Hierarchy",
-                  "table": "LocalDateTable_81ba8da9-079e-4b0e-a5f2-6df6bb3fe8ef"
-                },
-                "isDefault": true,
-                "relationship": "d795361e-4d7c-47ed-91fd-4e2ada0eddc8"
-              }
-            ]
-          },
-          {
-            "name": "updatedby",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "string",
-            "lineageTag": "3bfcdb0f-a283-4b43-ae31-ce1cd722a611",
-            "sourceColumn": "updatedby",
-            "summarizeBy": "none"
-          },
-          {
-            "name": "sourcefilename",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "string",
-            "lineageTag": "a5acc067-38e6-4133-9954-cff357fbd6b3",
-            "sourceColumn": "sourcefilename",
-            "summarizeBy": "none"
-          },
-          {
-            "name": "snapshotcapturedate",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "string",
-            "lineageTag": "1ab7d93e-e421-4953-b220-2d8b45372362",
-            "sourceColumn": "snapshotcapturedate",
-            "summarizeBy": "none"
-          },
-          {
-            "name": "ActualBeds",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "int64",
-            "formatString": "0",
-            "lineageTag": "b3d27718-86f9-45cf-bb82-cb8294321f90",
-            "sourceColumn": "ActualBeds",
-            "summarizeBy": "sum"
-          },
-          {
-            "name": "UsableBeds",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "int64",
-            "formatString": "0",
-            "lineageTag": "4d8ff33c-147c-4583-a298-adc74d162b28",
-            "sourceColumn": "UsableBeds",
-            "summarizeBy": "sum"
-          }
-        ],
-        "lineageTag": "2b3fea02-7ed2-4a97-9e13-f1d57ac286a4",
-        "partitions": [
-          {
-            "name": "snapshotRmStatus",
-            "mode": "import",
-            "source": {
-              "expression": [
-                "let",
-                "    Source = Sql.Database(\"sqlminstanceatprod.public.6ebcd2a481ea.database.windows.net,3342\", \"ATDMP\"),",
-                "    dbo_snapshotRmStatus = Source{[Schema=\"dbo\",Item=\"snapshotRmStatus\"]}[Data]",
-                "in",
-                "    dbo_snapshotRmStatus"
-              ],
-              "type": "m"
-            }
-          }
-        ]
-      },
-      {
-        "name": "LocalDateTable_7ab8d73d-cab4-49e8-a541-6b8a54e1cdf9",
-        "annotations": [
-          {
-            "name": "__PBI_LocalDateTable",
-            "value": "true"
-          }
-        ],
-        "columns": [
-          {
-            "name": "Date",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "User"
-              }
-            ],
-            "dataCategory": "PaddedDateTableDates",
-            "dataType": "dateTime",
-            "isHidden": true,
-            "isNameInferred": true,
-            "lineageTag": "be15f242-68b4-4dca-906f-3b2af026d55f",
-            "sourceColumn": "[Date]",
-            "summarizeBy": "none",
-            "type": "calculatedTableColumn"
-          },
-          {
-            "name": "Year",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "User"
-              },
-              {
-                "name": "TemplateId",
-                "value": "Year"
-              }
-            ],
-            "dataCategory": "Years",
-            "dataType": "int64",
-            "expression": "YEAR([Date])",
-            "isHidden": true,
-            "lineageTag": "d26a7634-9a72-49ab-a202-e301d08518cc",
-            "summarizeBy": "none",
-            "type": "calculated"
-          },
-          {
-            "name": "MonthNo",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "User"
-              },
-              {
-                "name": "TemplateId",
-                "value": "MonthNumber"
-              }
-            ],
-            "dataCategory": "MonthOfYear",
-            "dataType": "int64",
-            "expression": "MONTH([Date])",
-            "isHidden": true,
-            "lineageTag": "69362b27-6fea-49d1-8aa8-5a76e2949fb8",
-            "summarizeBy": "none",
-            "type": "calculated"
-          },
-          {
-            "name": "Month",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "User"
-              },
-              {
-                "name": "TemplateId",
-                "value": "Month"
-              }
-            ],
-            "dataCategory": "Months",
-            "dataType": "string",
-            "expression": "FORMAT([Date], \"MMMM\")",
-            "isHidden": true,
-            "lineageTag": "5676a0f0-065f-429c-a0c0-68b8af6148ac",
-            "sortByColumn": "MonthNo",
-            "summarizeBy": "none",
-            "type": "calculated"
-          },
-          {
-            "name": "QuarterNo",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "User"
-              },
-              {
-                "name": "TemplateId",
-                "value": "QuarterNumber"
-              }
-            ],
-            "dataCategory": "QuarterOfYear",
-            "dataType": "int64",
-            "expression": "INT(([MonthNo] + 2) / 3)",
-            "isHidden": true,
-            "lineageTag": "12b19a67-38ab-4586-afe2-a5dd040626d8",
-            "summarizeBy": "none",
-            "type": "calculated"
-          },
-          {
-            "name": "Quarter",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "User"
-              },
-              {
-                "name": "TemplateId",
-                "value": "Quarter"
-              }
-            ],
-            "dataCategory": "Quarters",
-            "dataType": "string",
-            "expression": "\"Qtr \" & [QuarterNo]",
-            "isHidden": true,
-            "lineageTag": "38d27119-a78f-4155-9aca-be7817c28c5d",
-            "sortByColumn": "QuarterNo",
-            "summarizeBy": "none",
-            "type": "calculated"
-          },
-          {
-            "name": "Day",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "User"
-              },
-              {
-                "name": "TemplateId",
-                "value": "Day"
-              }
-            ],
-            "dataCategory": "DayOfMonth",
-            "dataType": "int64",
-            "expression": "DAY([Date])",
-            "isHidden": true,
-            "lineageTag": "7e1bc841-1bc7-4782-92d6-6f6813affd7d",
-            "summarizeBy": "none",
-            "type": "calculated"
-          }
-        ],
-        "hierarchies": [
-          {
-            "name": "Date Hierarchy",
-            "annotations": [
-              {
-                "name": "TemplateId",
-                "value": "DateHierarchy"
-              }
-            ],
-            "levels": [
-              {
-                "name": "Year",
-                "column": "Year",
-                "lineageTag": "bbb60150-9b2c-4e78-86ef-3e2c915fb803",
-                "ordinal": 0
-              },
-              {
-                "name": "Quarter",
-                "column": "Quarter",
-                "lineageTag": "10ea87ff-1cc7-4aa1-89c1-846a3caf5bd4",
-                "ordinal": 1
-              },
-              {
-                "name": "Month",
-                "column": "Month",
-                "lineageTag": "df10ac88-7e59-41d1-9ff5-80e76acc3c52",
-                "ordinal": 2
-              },
-              {
-                "name": "Day",
-                "column": "Day",
-                "lineageTag": "b927871e-950c-41cf-bbb9-21ec9a77b953",
-                "ordinal": 3
-              }
-            ],
-            "lineageTag": "c2d28772-e703-4a4f-8486-035eaba9aa65"
-          }
-        ],
-        "isHidden": true,
-        "lineageTag": "e1a07f92-f141-4327-a4dc-26c52e573534",
-        "partitions": [
-          {
-            "name": "LocalDateTable_7ab8d73d-cab4-49e8-a541-6b8a54e1cdf9",
-            "mode": "import",
-            "source": {
-              "expression": "Calendar(Date(Year(MIN('snapshotRmStatus'[Occupd_Dt])), 1, 1), Date(Year(MAX('snapshotRmStatus'[Occupd_Dt])), 12, 31))",
-              "type": "calculated"
-            }
-          }
-        ],
-        "showAsVariationsOnly": true
-      },
-      {
-        "name": "LocalDateTable_6250581c-74dd-44c9-bfa1-24a3680687d2",
-        "annotations": [
-          {
-            "name": "__PBI_LocalDateTable",
-            "value": "true"
-          }
-        ],
-        "columns": [
-          {
-            "name": "Date",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "User"
-              }
-            ],
-            "dataCategory": "PaddedDateTableDates",
-            "dataType": "dateTime",
-            "isHidden": true,
-            "isNameInferred": true,
-            "lineageTag": "393f8dbd-c7c5-4f98-adac-8918611cc5f7",
-            "sourceColumn": "[Date]",
-            "summarizeBy": "none",
-            "type": "calculatedTableColumn"
-          },
-          {
-            "name": "Year",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "User"
-              },
-              {
-                "name": "TemplateId",
-                "value": "Year"
-              }
-            ],
-            "dataCategory": "Years",
-            "dataType": "int64",
-            "expression": "YEAR([Date])",
-            "isHidden": true,
-            "lineageTag": "411b003b-63b7-455c-9688-def4e6b9b020",
-            "summarizeBy": "none",
-            "type": "calculated"
-          },
-          {
-            "name": "MonthNo",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "User"
-              },
-              {
-                "name": "TemplateId",
-                "value": "MonthNumber"
-              }
-            ],
-            "dataCategory": "MonthOfYear",
-            "dataType": "int64",
-            "expression": "MONTH([Date])",
-            "isHidden": true,
-            "lineageTag": "9fdd8396-6bb0-468c-a04c-873d000143f6",
-            "summarizeBy": "none",
-            "type": "calculated"
-          },
-          {
-            "name": "Month",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "User"
-              },
-              {
-                "name": "TemplateId",
-                "value": "Month"
-              }
-            ],
-            "dataCategory": "Months",
-            "dataType": "string",
-            "expression": "FORMAT([Date], \"MMMM\")",
-            "isHidden": true,
-            "lineageTag": "ae81432d-7545-4fe6-8a0b-dc91cae850a1",
-            "sortByColumn": "MonthNo",
-            "summarizeBy": "none",
-            "type": "calculated"
-          },
-          {
-            "name": "QuarterNo",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "User"
-              },
-              {
-                "name": "TemplateId",
-                "value": "QuarterNumber"
-              }
-            ],
-            "dataCategory": "QuarterOfYear",
-            "dataType": "int64",
-            "expression": "INT(([MonthNo] + 2) / 3)",
-            "isHidden": true,
-            "lineageTag": "fb779538-fe7a-4747-a045-21080883dbb0",
-            "summarizeBy": "none",
-            "type": "calculated"
-          },
-          {
-            "name": "Quarter",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "User"
-              },
-              {
-                "name": "TemplateId",
-                "value": "Quarter"
-              }
-            ],
-            "dataCategory": "Quarters",
-            "dataType": "string",
-            "expression": "\"Qtr \" & [QuarterNo]",
-            "isHidden": true,
-            "lineageTag": "4e490aef-0255-4526-aea4-04cfe3002db3",
-            "sortByColumn": "QuarterNo",
-            "summarizeBy": "none",
-            "type": "calculated"
-          },
-          {
-            "name": "Day",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "User"
-              },
-              {
-                "name": "TemplateId",
-                "value": "Day"
-              }
-            ],
-            "dataCategory": "DayOfMonth",
-            "dataType": "int64",
-            "expression": "DAY([Date])",
-            "isHidden": true,
-            "lineageTag": "d0812b1f-8c0e-4496-a939-190fa144646b",
-            "summarizeBy": "none",
-            "type": "calculated"
-          }
-        ],
-        "hierarchies": [
-          {
-            "name": "Date Hierarchy",
-            "annotations": [
-              {
-                "name": "TemplateId",
-                "value": "DateHierarchy"
-              }
-            ],
-            "levels": [
-              {
-                "name": "Year",
-                "column": "Year",
-                "lineageTag": "554e590a-9c9c-45c1-8cc8-93bd06a6971c",
-                "ordinal": 0
-              },
-              {
-                "name": "Quarter",
-                "column": "Quarter",
-                "lineageTag": "caabb95c-f0ac-4398-8852-78109e37ce91",
-                "ordinal": 1
-              },
-              {
-                "name": "Month",
-                "column": "Month",
-                "lineageTag": "d7a22913-88f4-4cc5-99ea-2c2e21cd6d3b",
-                "ordinal": 2
-              },
-              {
-                "name": "Day",
-                "column": "Day",
-                "lineageTag": "0056c1f3-0b70-4626-a027-970f96c481fd",
-                "ordinal": 3
-              }
-            ],
-            "lineageTag": "e9b5132d-5739-4efb-afa4-49eca9301240"
-          }
-        ],
-        "isHidden": true,
-        "lineageTag": "cdd11001-8a22-47b1-8717-c81461c33e1b",
-        "partitions": [
-          {
-            "name": "LocalDateTable_6250581c-74dd-44c9-bfa1-24a3680687d2",
-            "mode": "import",
-            "source": {
-              "expression": "Calendar(Date(Year(MIN('snapshotRmStatus'[Empty_Dt])), 1, 1), Date(Year(MAX('snapshotRmStatus'[Empty_Dt])), 12, 31))",
-              "type": "calculated"
-            }
-          }
-        ],
-        "showAsVariationsOnly": true
-      },
-      {
-        "name": "LocalDateTable_81ba8da9-079e-4b0e-a5f2-6df6bb3fe8ef",
-        "annotations": [
-          {
-            "name": "__PBI_LocalDateTable",
-            "value": "true"
-          }
-        ],
-        "columns": [
-          {
-            "name": "Date",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "User"
-              }
-            ],
-            "dataCategory": "PaddedDateTableDates",
-            "dataType": "dateTime",
-            "isHidden": true,
-            "isNameInferred": true,
-            "lineageTag": "1dbf9b60-387e-4b80-b0d9-7524922babde",
-            "sourceColumn": "[Date]",
-            "summarizeBy": "none",
-            "type": "calculatedTableColumn"
-          },
-          {
-            "name": "Year",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "User"
-              },
-              {
-                "name": "TemplateId",
-                "value": "Year"
-              }
-            ],
-            "dataCategory": "Years",
-            "dataType": "int64",
-            "expression": "YEAR([Date])",
-            "isHidden": true,
-            "lineageTag": "7ed04b88-738a-4867-b23d-d86ad6c6da50",
-            "summarizeBy": "none",
-            "type": "calculated"
-          },
-          {
-            "name": "MonthNo",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "User"
-              },
-              {
-                "name": "TemplateId",
-                "value": "MonthNumber"
-              }
-            ],
-            "dataCategory": "MonthOfYear",
-            "dataType": "int64",
-            "expression": "MONTH([Date])",
-            "isHidden": true,
-            "lineageTag": "e6939561-e3a4-4680-b10c-ceff9e6d9c49",
-            "summarizeBy": "none",
-            "type": "calculated"
-          },
-          {
-            "name": "Month",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "User"
-              },
-              {
-                "name": "TemplateId",
-                "value": "Month"
-              }
-            ],
-            "dataCategory": "Months",
-            "dataType": "string",
-            "expression": "FORMAT([Date], \"MMMM\")",
-            "isHidden": true,
-            "lineageTag": "0f1940dc-a40a-4b19-9b19-94867e54cc17",
-            "sortByColumn": "MonthNo",
-            "summarizeBy": "none",
-            "type": "calculated"
-          },
-          {
-            "name": "QuarterNo",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "User"
-              },
-              {
-                "name": "TemplateId",
-                "value": "QuarterNumber"
-              }
-            ],
-            "dataCategory": "QuarterOfYear",
-            "dataType": "int64",
-            "expression": "INT(([MonthNo] + 2) / 3)",
-            "isHidden": true,
-            "lineageTag": "ef0d6609-11cf-4610-bc1c-24293394c12f",
-            "summarizeBy": "none",
-            "type": "calculated"
-          },
-          {
-            "name": "Quarter",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "User"
-              },
-              {
-                "name": "TemplateId",
-                "value": "Quarter"
-              }
-            ],
-            "dataCategory": "Quarters",
-            "dataType": "string",
-            "expression": "\"Qtr \" & [QuarterNo]",
-            "isHidden": true,
-            "lineageTag": "da79e363-0f9d-4fa0-ae00-854a9939ca99",
-            "sortByColumn": "QuarterNo",
-            "summarizeBy": "none",
-            "type": "calculated"
-          },
-          {
-            "name": "Day",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "User"
-              },
-              {
-                "name": "TemplateId",
-                "value": "Day"
-              }
-            ],
-            "dataCategory": "DayOfMonth",
-            "dataType": "int64",
-            "expression": "DAY([Date])",
-            "isHidden": true,
-            "lineageTag": "06d48dc0-cef7-42a6-a3fc-5b9981eabfea",
-            "summarizeBy": "none",
-            "type": "calculated"
-          }
-        ],
-        "hierarchies": [
-          {
-            "name": "Date Hierarchy",
-            "annotations": [
-              {
-                "name": "TemplateId",
-                "value": "DateHierarchy"
-              }
-            ],
-            "levels": [
-              {
-                "name": "Year",
-                "column": "Year",
-                "lineageTag": "b1e85fe6-addf-4d9a-8174-eaa9271f71f4",
-                "ordinal": 0
-              },
-              {
-                "name": "Quarter",
-                "column": "Quarter",
-                "lineageTag": "7c8036ed-3bef-4286-8da5-564def60654f",
-                "ordinal": 1
-              },
-              {
-                "name": "Month",
-                "column": "Month",
-                "lineageTag": "3f84d6be-d0d2-4110-a97f-f66ee66a667f",
-                "ordinal": 2
-              },
-              {
-                "name": "Day",
-                "column": "Day",
-                "lineageTag": "e93e4694-cd5a-410f-9a4e-4955eb01eab7",
-                "ordinal": 3
-              }
-            ],
-            "lineageTag": "d764c2c8-d515-4580-ade3-067bebe69096"
-          }
-        ],
-        "isHidden": true,
-        "lineageTag": "1389d6c3-9d90-4147-bb2b-dfb0f13ed44d",
-        "partitions": [
-          {
-            "name": "LocalDateTable_81ba8da9-079e-4b0e-a5f2-6df6bb3fe8ef",
-            "mode": "import",
-            "source": {
-              "expression": "Calendar(Date(Year(MIN('snapshotRmStatus'[updatedtimestamp])), 1, 1), Date(Year(MAX('snapshotRmStatus'[updatedtimestamp])), 12, 31))",
-              "type": "calculated"
-            }
-          }
-        ],
-        "showAsVariationsOnly": true
       },
       {
         "name": "Measure Table",
@@ -50267,7 +47582,7 @@
               "Var A = CALCULATE(DISTINCTCOUNT(FactCQCLocationsRawData[Location ID]),",
               "FactCQCLocationsRawData[Domain]=\"Overall\",",
               "FactCQCLocationsRawData[Current rating]=\"Outstanding\")",
-              "--FactCQCLocationsRawData[Publication Date]=MAX(FactCQCLocationsRawData[Publication Date]),ALLEXCEPT(FactCQCLocationsRawData,FactCQCLocationsRawData[Location ID]))",
+              "--FactCQCLocationsRawData[Publication Date]=MAX(FactCQCLocationsRawData[Publication Date])) --,ALLEXCEPT(FactCQCLocationsRawData,FactCQCLocationsRawData[Location ID]))",
               "//Var B = [% Outstanding]",
               "Return COALESCE(A,0)",
               "//CONCATENATE(A,B)"
@@ -50278,7 +47593,8 @@
           {
             "name": "# of Good",
             "expression": [
-              "CALCULATE(DISTINCTCOUNT(FactCQCLocationsRawData[Location ID]),FactCQCLocationsRawData[Domain]=\"Overall\",FactCQCLocationsRawData[Current rating]=\"Good\")",
+              "Var A = CALCULATE(DISTINCTCOUNT(FactCQCLocationsRawData[Location ID]),FactCQCLocationsRawData[Domain]=\"Overall\",FactCQCLocationsRawData[Current rating]=\"Good\")",
+              "Return COALESCE(A,0)",
               ""
             ],
             "formatString": "0",
@@ -50287,26 +47603,41 @@
           {
             "name": "# of Requires Improvement",
             "expression": [
-              "CALCULATE(DISTINCTCOUNT(FactCQCLocationsRawData[Location ID]),FactCQCLocationsRawData[Domain]=\"Overall\",",
-              "FactCQCLocationsRawData[Current rating]=\"Requires improvement\")"
+              "Var A = CALCULATE(DISTINCTCOUNT(FactCQCLocationsRawData[Location ID]),FactCQCLocationsRawData[Domain]=\"Overall\",",
+              "FactCQCLocationsRawData[Current rating]=\"Requires improvement\")",
+              "Return COALESCE(A,0)"
             ],
             "formatString": "0",
             "lineageTag": "cd7c5a4c-00e6-4b09-87f9-98fd67a378dd"
           },
           {
             "name": "# of Inadequate",
-            "expression": "CALCULATE(DISTINCTCOUNT(FactCQCLocationsRawData[Location ID]),FactCQCLocationsRawData[Domain]=\"Overall\",FactCQCLocationsRawData[Current rating]=\"Inadequate\")",
+            "expression": [
+              "Var A = CALCULATE(DISTINCTCOUNT(FactCQCLocationsRawData[Location ID]),FactCQCLocationsRawData[Domain]=\"Overall\",FactCQCLocationsRawData[Current rating]=\"Inadequate\")",
+              "Return COALESCE(A,0)"
+            ],
             "formatString": "0",
             "lineageTag": "f60dcdf7-7219-4fe9-8a7d-2d1d27813d36"
           },
           {
             "name": "# of Not rated",
             "expression": [
-              "CALCULATE(DISTINCTCOUNT(FactCQCLocationsRawData[Location ID]),",
               "",
-              "FactCQCLocationsRawData[Domain]=BLANK()||FactCQCLocationsRawData[Domain]=\"Overall\",",
-              "        not(",
-              "        'FactCQCLocationsRawData'[Current rating] in {\"Requires improvement\",\"Good\",\"Inadequate\",\"Outstanding\"}))"
+              "//  Var A = CALCULATE(DISTINCTCOUNT(FactCQCLocationsRawData[Location ID]),",
+              "",
+              "// FactCQCLocationsRawData[Domain]=BLANK()||FactCQCLocationsRawData[Domain]=\"Overall\",FactCQCLocationsRawData[SourceFileName]<>\"CQCLocationsHistoricRatings_AT.csv\",",
+              "//         not(",
+              "//         'FactCQCLocationsRawData'[Current rating] in {\"Requires improvement\",\"Good\",\"Inadequate\",\"Outstanding\"}))",
+              "//     Return  COALESCE(A,0)",
+              "VAR A = CALCULATE(",
+              "    DISTINCTCOUNT(FactCQCLocationsRawData[Location ID]),",
+              "    FactCQCLocationsRawData[Domain] = BLANK() || FactCQCLocationsRawData[Domain] = \"Overall\",",
+              "    FactCQCLocationsRawData[SourceFileName] <> \"CQCLocationsHistoricRatings_AT.csv\",",
+              "        'FactCQCLocationsRawData'[Current rating] IN {\"Inspected but not rated\",\"Insufficient evidence to rate\",\"No published rating\"} || FactCQCLocationsRawData[Current rating date] = BLANK()",
+              "",
+              "    )",
+              "",
+              "RETURN COALESCE(A, 0)"
             ],
             "formatString": "0",
             "lineageTag": "25c51dd8-d653-47bc-bc02-9fbff61b904b"
@@ -50372,7 +47703,9 @@
           {
             "name": "No. of Visits",
             "expression": [
-              "CALCULATE(DISTINCTCOUNT(FactCQCLocationsRawData[Location ID]))",
+              "Var A = [# of Good]+[# of Outstanding]+[# of Requires Improvement]+[# of Inadequate]+[# of Not rated]",
+              "//CALCULATE(DISTINCTCOUNT(FactCQCLocationsRawData[Location ID]))",
+              "Return COALESCE(A,0)",
               "// CALCULATE(",
               "//     COUNTROWS('FactCQCLocationsRawData'),",
               "//     'VW_Reporting_Calendar'[Date] >= DATE(YEAR(TODAY()), MONTH(TODAY()), 1) &&",
@@ -50413,7 +47746,11 @@
               "",
               "VAR POSITIVEICON=UNICHAR(9650)",
               "VAR NEGATIVEICON=UNICHAR(9660)",
-              "VAR RESULT = IF ([# of Good]<[PM_Good],NEGATIVEICON ,POSITIVEICON)",
+              "VAR NOCHANGEICON = \"≡\"  ",
+              "VAR RESULT = IF ([# of Good]<[PM_Good],NEGATIVEICON ,",
+              "                IF ([# of Good]>[PM_Good],POSITIVEICON,",
+              "                NOCHANGEICON))",
+              "                ",
               "RETURN RESULT"
             ],
             "lineageTag": "ce18322f-195e-4cb6-8e99-965180a4e639"
@@ -50519,7 +47856,7 @@
               "Var A = DISTINCTCOUNT(FactCQCLocationsRawData[Latest Rating])",
               "Var B = [# of Good]+[# of Outstanding]",
               "Var Total = [# of Good]+[# of Outstanding]+[# of Inadequate]+[# of Requires Improvement]",
-              "Return DIVIDE(B,Total)"
+              "Return COALESCE(DIVIDE(B,Total),0)"
             ],
             "formatString": "0.00%;-0.00%;0.00%",
             "lineageTag": "5f3e3589-f832-4308-8ad3-f2aa608bb111"
@@ -50539,14 +47876,14 @@
           },
           {
             "name": "Diff Outstanding",
-            "expression": "[# of Outstanding]-[# of Outstanding PM]",
+            "expression": "[# of Outstanding]-[PM_Outstanding_Homes]",
             "formatString": "0",
             "lineageTag": "196a330f-4314-440c-a287-b3e184e41058"
           },
           {
             "name": "Outstanding Variance",
             "expression": [
-              "Var A = DIVIDE([Diff Outstanding],[# of Outstanding PM])",
+              "Var A = DIVIDE([Diff Outstanding],[PM_Outstanding_Homes])",
               "Return COALESCE(A,\"-\")"
             ],
             "formatString": "0.0%;-0.0%;0.0%",
@@ -50640,7 +47977,10 @@
               "",
               "VAR POSITIVEICON=UNICHAR(9650)",
               "VAR NEGATIVEICON=UNICHAR(9660)",
-              "VAR RESULT = IF ([# of Outstanding]>[# of Outstanding PM],POSITIVEICON,NEGATIVEICON )",
+              "VAR NOCHANGEICON = \"≡\"",
+              "VAR RESULT = IF ([# of Outstanding]>[PM_Outstanding_Homes],POSITIVEICON,",
+              "                IF ([# of Outstanding]<[PM_Outstanding_Homes],NEGATIVEICON,",
+              "                NOCHANGEICON))",
               "RETURN RESULT"
             ],
             "lineageTag": "243f8a39-2504-4f1f-acd3-793dae17bb63"
@@ -50660,7 +48000,9 @@
               "",
               "VAR POSITIVEICON=UNICHAR(9650)",
               "VAR NEGATIVEICON=UNICHAR(9660)",
-              "VAR RESULT = IF ([# of Requires Improvement]<[PM_Requires_Improvement],NEGATIVEICON ,POSITIVEICON)",
+              "VAR NOCHANGEICON = \"≡\"  ",
+              "VAR RESULT = IF ([# of Requires Improvement]<[PM_Requires_Improvement],NEGATIVEICON ,",
+              "                IF ([# of Requires Improvement]>[PM_Requires_Improvement],POSITIVEICON,NOCHANGEICON))",
               "RETURN RESULT"
             ],
             "lineageTag": "efc25c0e-8bdb-41f0-8212-21bcf10a107e"
@@ -50671,7 +48013,9 @@
               "",
               "VAR POSITIVEICON=UNICHAR(9650)",
               "VAR NEGATIVEICON=UNICHAR(9660)",
-              "VAR RESULT = IF ([# of Inadequate]<[PM_Inadequate],NEGATIVEICON ,POSITIVEICON)",
+              "VAR NOCHANGEICON = \"≡\"  ",
+              "VAR RESULT = IF ([# of Inadequate]<[PM_Inadequate],NEGATIVEICON ,",
+              "                IF ([# of Inadequate]>[PM_Inadequate],POSITIVEICON,NOCHANGEICON))",
               "RETURN RESULT"
             ],
             "lineageTag": "774c3360-544b-4905-85e3-19dcfda7a464"
@@ -50682,14 +48026,19 @@
               "",
               "VAR POSITIVEICON=UNICHAR(9650)",
               "VAR NEGATIVEICON=UNICHAR(9660)",
-              "VAR RESULT = IF ([# of Not rated]<[PM_NotRated],NEGATIVEICON ,POSITIVEICON)",
+              "VAR NOCHANGEICON = \"≡\"  ",
+              "VAR RESULT = IF ([# of Not rated]<[PM_NotRated],NEGATIVEICON ,",
+              "                IF ([# of Not rated]>[PM_NotRated],POSITIVEICON,NOCHANGEICON))",
               "RETURN RESULT"
             ],
             "lineageTag": "e9bced1e-0f06-47c4-b72c-b74e5bffd5f9"
           },
           {
             "name": "ColorOutstanding",
-            "expression": "IF([Variance%OutstandingHomes]>=0,\"Green\",\"Red\")",
+            "expression": [
+              "IF([Variance%OutstandingHomes]>0,\"Green\",",
+              "IF([Variance%OutstandingHomes]<0,\"Red\",\"#F2C80F\"))"
+            ],
             "lineageTag": "9f495323-a671-429e-a308-1380a3fae28f"
           },
           {
@@ -50698,49 +48047,110 @@
               "",
               "VAR POSITIVEICON=UNICHAR(9650)",
               "VAR NEGATIVEICON=UNICHAR(9660)",
-              "VAR RESULT = IF ([Compliance]>[PM_Compliance],POSITIVEICON,NEGATIVEICON )",
+              "VAR NOCHANGEICON = \"≡\"  ",
+              "VAR RESULT = IF ([Compliance]>[PM_Compliance],POSITIVEICON,",
+              "                IF ([Compliance]<[PM_Compliance],NEGATIVEICON,NOCHANGEICON ))",
               "RETURN RESULT"
             ],
             "lineageTag": "e6b7756d-61da-49cb-b7c6-efff2dd79065"
           },
           {
             "name": "PM_Compliance",
-            "annotations": [
-              {
-                "name": "PBI_FormatHint",
-                "value": "{\"isGeneralNumber\":true}"
-              }
-            ],
             "expression": [
               "CALCULATE([Compliance],ALLEXCEPT(VW_Reporting_Calendar,VW_Reporting_Calendar[Date]),PREVIOUSMONTH(VW_Reporting_Calendar[Date])",
               ")"
             ],
+            "formatString": "0.00%;-0.00%;0.00%",
             "lineageTag": "ef6ffb35-26b9-46b7-8f71-d9f102d4089b"
           },
           {
             "name": "ColorGood",
-            "expression": "IF([Variance%Good]>=0,\"Green\",\"Red\")",
+            "expression": "IF([Variance%Good]>0,\"Green\",IF([Variance%Good]<0,\"Red\",\"#F2C80F\"))",
             "lineageTag": "190d76af-dbd8-4ac3-b7c7-1fe9f518d98f"
           },
           {
             "name": "ColorRequiresImprovement",
-            "expression": "IF([Variance%RequiresImprovement]>=0,\"Green\",\"Red\")",
+            "expression": "IF([Variance%RequiresImprovement]>0,\"Green\",IF([Variance%RequiresImprovement]<0,\"Red\",\"#F2C80F\"))",
             "lineageTag": "b1e70cc6-046d-459a-8968-7871f5ff1dd3"
           },
           {
             "name": "ColorInadequate",
-            "expression": "IF([Variance%Inadequate]>=0,\"Green\",\"Red\")",
+            "expression": "IF([Variance%Inadequate]>0,\"Green\",IF([Variance%Inadequate]<0,\"Red\",\"#F2C80F\"))",
             "lineageTag": "6ecf063f-d84f-4e4b-ad7d-91d6e6d42665"
           },
           {
             "name": "ColorNotrated",
-            "expression": "IF([Not Rated Variance]>=0,\"Green\",\"Red\")",
+            "expression": "IF([Not Rated Variance]>0,\"Green\",IF([Not Rated Variance]<0,\"Red\",\"#F2C80F\"))",
             "lineageTag": "e902c74e-12c3-49e8-8c52-c7215e9b3523"
           },
           {
             "name": "ColorCompliance",
-            "expression": "IF([Compliance Variance]>=0,\"Green\",\"Red\")",
+            "expression": "IF([Compliance Variance]>0,\"Green\",IF([Compliance Variance]<0,\"Red\",\"#F2C80F\"))",
             "lineageTag": "8f06cfb2-44f9-46dc-9b88-d8d19aafc28d"
+          },
+          {
+            "name": "Tooltip Outstanding",
+            "expression": [
+              "\"Previous Month - \" & FORMAT([PM_Outstanding_Homes], \"0\")&",
+              "                        \", Variance - (\" & FORMAT([Variance%OutstandingHomes],\"0.0%\")&\")\""
+            ],
+            "lineageTag": "f2ef2ea5-85be-44ee-87ec-6c42ba1082e7"
+          },
+          {
+            "name": "Tooltip Good",
+            "expression": [
+              "\"Previous Month - \" & FORMAT([PM_Good], \"0\")&",
+              "                        \", Variance - (\" & FORMAT([Variance%Good],\"0.0%\")&\")\""
+            ],
+            "lineageTag": "997c15e1-e8ce-46f5-a72d-58d0d826a772"
+          },
+          {
+            "name": "Tooltip Required Improvement",
+            "expression": [
+              "\"Previous Month - \" & FORMAT([PM_Requires_Improvement], \"0\")&",
+              "                        \", Variance - (\" & FORMAT([Variance%RequiresImprovement],\"0.0%\")&\")\""
+            ],
+            "lineageTag": "cf77e447-d2e3-4e6f-ae27-034e42f0ee46"
+          },
+          {
+            "name": "Tooltip Inadequate",
+            "expression": [
+              "\"Previous Month - \" & FORMAT([PM_Inadequate], \"0\")&",
+              "                        \", Variance - (\" & FORMAT([Variance%Inadequate],\"0.0%\")&\")\""
+            ],
+            "lineageTag": "599c1081-4ad8-4e22-81ee-39215c399e8a"
+          },
+          {
+            "name": "Tooltip Not Rated",
+            "expression": [
+              "\"Previous Month - \" & FORMAT([PM_NotRated], \"0\")&",
+              "                        \", Variance - (\" & FORMAT([Not Rated Variance],\"0.0%\")&\")\""
+            ],
+            "lineageTag": "67769236-8fc2-43f6-b743-94f67dafac99"
+          },
+          {
+            "name": "Tooltip Compliance",
+            "expression": [
+              "\"Previous Month - \" & FORMAT([PM_Compliance], \"0.00%\")&",
+              "                        \", Variance - (\" & FORMAT([Compliance Variance],\"0.0%\")&\")\""
+            ],
+            "lineageTag": "3513b373-708a-46ea-ac48-dc90a89efc5e"
+          },
+          {
+            "name": "Not Rated 2",
+            "expression": [
+              "",
+              "VAR A = CALCULATE(",
+              "    DISTINCTCOUNT(FactCQCLocationsRawData[Location ID]),",
+              "    FactCQCLocationsRawData[Domain] = BLANK() || FactCQCLocationsRawData[Domain] = \"Overall\",",
+              "    FactCQCLocationsRawData[SourceFileName] <> \"CQCLocationsHistoricRatings_AT.csv\",",
+              "        'FactCQCLocationsRawData'[Current rating] IN {\"Inspected but not rated\"} || FactCQCLocationsRawData[Current rating date] = BLANK()",
+              "    )",
+              "RETURN COALESCE(A, 0)",
+              ""
+            ],
+            "formatString": "0",
+            "lineageTag": "84628153-520a-46db-8930-967923ef5011"
           }
         ],
         "partitions": [
@@ -51135,6 +48545,168 @@
         ]
       },
       {
+        "name": "Brand Measures",
+        "annotations": [
+          {
+            "name": "PBI_Id",
+            "value": "5995dfc855f5458fb675218e9f74c506"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Brand Measures",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isNameInferred": false,
+            "lineageTag": "3c4e2506-3a17-4f23-816e-97ff7bdeb259",
+            "relatedColumnDetails": {
+              "groupByColumns": [
+                {
+                  "groupingColumn": "Brand Measures Fields"
+                }
+              ]
+            },
+            "sortByColumn": "Brand Measures Order",
+            "sourceColumn": "[Value1]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Brand Measures Fields",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "extendedProperties": [
+              {
+                "name": "ParameterMetadata",
+                "type": "json",
+                "value": {
+                  "kind": 2,
+                  "version": 3
+                }
+              }
+            ],
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "isNameInferred": false,
+            "lineageTag": "ae096fc0-14e3-4dd2-bc4f-a63fd1a5245b",
+            "sortByColumn": "Brand Measures Order",
+            "sourceColumn": "[Value2]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Brand Measures Order",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "isNameInferred": false,
+            "lineageTag": "c30f2466-55a5-4865-a3a5-784ec7094dfb",
+            "sourceColumn": "[Value3]",
+            "summarizeBy": "sum",
+            "type": "calculatedTableColumn"
+          }
+        ],
+        "lineageTag": "ad6d719b-7439-4552-bebc-db97a2d18a98",
+        "measures": [
+          {
+            "name": "List of Brand Name values",
+            "expression": [
+              "",
+              "VAR __DISTINCT_VALUES_COUNT = DISTINCTCOUNT('Brand Table'[Brand Name])",
+              "VAR __MAX_VALUES_TO_SHOW = 3",
+              "RETURN",
+              "\tIF(",
+              "\t\t__DISTINCT_VALUES_COUNT > __MAX_VALUES_TO_SHOW,",
+              "\t\tCONCATENATE(",
+              "\t\t\tCONCATENATEX(",
+              "\t\t\t\tTOPN(",
+              "\t\t\t\t\t__MAX_VALUES_TO_SHOW,",
+              "\t\t\t\t\tVALUES('Brand Table'[Brand Name]),",
+              "\t\t\t\t\t'Brand Table'[Brand Name],",
+              "\t\t\t\t\tASC",
+              "\t\t\t\t),",
+              "\t\t\t\t'Brand Table'[Brand Name],",
+              "\t\t\t\t\", \",",
+              "\t\t\t\t'Brand Table'[Brand Name],",
+              "\t\t\t\tASC",
+              "\t\t\t),",
+              "\t\t\t\", etc.\"",
+              "\t\t),",
+              "\t\tCONCATENATEX(",
+              "\t\t\tVALUES('Brand Table'[Brand Name]),",
+              "\t\t\t'Brand Table'[Brand Name],",
+              "\t\t\t\", \",",
+              "\t\t\t'Brand Table'[Brand Name],",
+              "\t\t\tASC",
+              "\t\t)",
+              "\t)"
+            ],
+            "extendedProperties": [
+              {
+                "name": "MeasureTemplate",
+                "type": "json",
+                "value": {
+                  "daxTemplateName": "ConcatenateValues",
+                  "version": 0
+                }
+              }
+            ],
+            "lineageTag": "5c52abbc-e986-48f5-86be-0adf4bcb1b4c"
+          },
+          {
+            "name": "Test",
+            "expression": "\"Test\"",
+            "lineageTag": "fbc2a412-b49f-4cd0-bbfd-9335bcd518c5"
+          },
+          {
+            "name": "Measure",
+            "expression": [
+              "IF(",
+              "    NOT(ISBLANK(VALUES(FactCQCLocationsRawData[Publication Date]))) && ISBLANK(VALUES('FactCQCLocationsRawData'[Current rating])),",
+              "    1,",
+              "    0",
+              ")",
+              ""
+            ],
+            "formatString": "0",
+            "lineageTag": "aa612e08-433e-4613-8b10-28c493a7e003"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Brand Measures",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "{",
+                "    (\"Anchor Visits Count\", NAMEOF('Measure Table'[AT Visits Count]), 0),",
+                "    (\"AT Visits Count\", NAMEOF('Measure Table'[AT Visits Count]), 1)",
+                "}"
+              ],
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
         "name": "Brand Type",
         "annotations": [
           {
@@ -51504,207 +49076,6 @@
         "showAsVariationsOnly": true
       },
       {
-        "name": "LocalDateTable_8a45136e-a113-43e7-be70-18ddbc414101",
-        "annotations": [
-          {
-            "name": "__PBI_LocalDateTable",
-            "value": "true"
-          }
-        ],
-        "columns": [
-          {
-            "name": "Date",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "User"
-              }
-            ],
-            "dataCategory": "PaddedDateTableDates",
-            "dataType": "dateTime",
-            "isHidden": true,
-            "isNameInferred": true,
-            "lineageTag": "018d0e76-2e46-41e5-82fa-24cf883d4ea2",
-            "sourceColumn": "[Date]",
-            "summarizeBy": "none",
-            "type": "calculatedTableColumn"
-          },
-          {
-            "name": "Year",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "User"
-              },
-              {
-                "name": "TemplateId",
-                "value": "Year"
-              }
-            ],
-            "dataCategory": "Years",
-            "dataType": "int64",
-            "expression": "YEAR([Date])",
-            "isHidden": true,
-            "lineageTag": "10bf808b-a0c7-4544-9cea-1f213a37e3cd",
-            "summarizeBy": "none",
-            "type": "calculated"
-          },
-          {
-            "name": "MonthNo",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "User"
-              },
-              {
-                "name": "TemplateId",
-                "value": "MonthNumber"
-              }
-            ],
-            "dataCategory": "MonthOfYear",
-            "dataType": "int64",
-            "expression": "MONTH([Date])",
-            "isHidden": true,
-            "lineageTag": "3493320f-4750-4367-a9a7-81630a5a0b9f",
-            "summarizeBy": "none",
-            "type": "calculated"
-          },
-          {
-            "name": "Month",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "User"
-              },
-              {
-                "name": "TemplateId",
-                "value": "Month"
-              }
-            ],
-            "dataCategory": "Months",
-            "dataType": "string",
-            "expression": "FORMAT([Date], \"MMMM\")",
-            "isHidden": true,
-            "lineageTag": "4de428e2-0e97-4027-ab54-0c174fb48dd5",
-            "sortByColumn": "MonthNo",
-            "summarizeBy": "none",
-            "type": "calculated"
-          },
-          {
-            "name": "QuarterNo",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "User"
-              },
-              {
-                "name": "TemplateId",
-                "value": "QuarterNumber"
-              }
-            ],
-            "dataCategory": "QuarterOfYear",
-            "dataType": "int64",
-            "expression": "INT(([MonthNo] + 2) / 3)",
-            "isHidden": true,
-            "lineageTag": "1d296d45-5092-40e5-9aab-a695e4122a66",
-            "summarizeBy": "none",
-            "type": "calculated"
-          },
-          {
-            "name": "Quarter",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "User"
-              },
-              {
-                "name": "TemplateId",
-                "value": "Quarter"
-              }
-            ],
-            "dataCategory": "Quarters",
-            "dataType": "string",
-            "expression": "\"Qtr \" & [QuarterNo]",
-            "isHidden": true,
-            "lineageTag": "e807ab4b-6f42-4ec4-95ad-63f9db24ba36",
-            "sortByColumn": "QuarterNo",
-            "summarizeBy": "none",
-            "type": "calculated"
-          },
-          {
-            "name": "Day",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "User"
-              },
-              {
-                "name": "TemplateId",
-                "value": "Day"
-              }
-            ],
-            "dataCategory": "DayOfMonth",
-            "dataType": "int64",
-            "expression": "DAY([Date])",
-            "isHidden": true,
-            "lineageTag": "b7362ec7-5c76-47ef-826c-2b9aac709078",
-            "summarizeBy": "none",
-            "type": "calculated"
-          }
-        ],
-        "hierarchies": [
-          {
-            "name": "Date Hierarchy",
-            "annotations": [
-              {
-                "name": "TemplateId",
-                "value": "DateHierarchy"
-              }
-            ],
-            "levels": [
-              {
-                "name": "Year",
-                "column": "Year",
-                "lineageTag": "d6ea97a6-8ebd-4c1f-8c80-b9888b54c161",
-                "ordinal": 0
-              },
-              {
-                "name": "Quarter",
-                "column": "Quarter",
-                "lineageTag": "48daa813-d4c2-4881-81bd-18f3673d81e7",
-                "ordinal": 1
-              },
-              {
-                "name": "Month",
-                "column": "Month",
-                "lineageTag": "d98251f2-f310-4d1d-9562-8b2db6a2e841",
-                "ordinal": 2
-              },
-              {
-                "name": "Day",
-                "column": "Day",
-                "lineageTag": "07f82cd1-2898-4143-bb0b-d7d3e9c3a9b2",
-                "ordinal": 3
-              }
-            ],
-            "lineageTag": "d69faaf7-6d39-4e02-99e8-21a531cdead7"
-          }
-        ],
-        "isHidden": true,
-        "lineageTag": "8c389589-1efd-48c3-8af6-4f4d7d37af74",
-        "partitions": [
-          {
-            "name": "LocalDateTable_8a45136e-a113-43e7-be70-18ddbc414101",
-            "mode": "import",
-            "source": {
-              "expression": "Calendar(Date(Year(MIN('FactCQCLocationsRawData'[Current rating date])), 1, 1), Date(Year(MAX('FactCQCLocationsRawData'[Current rating date])), 12, 31))",
-              "type": "calculated"
-            }
-          }
-        ],
-        "showAsVariationsOnly": true
-      },
-      {
         "name": "LocalDateTable_652ddc53-9500-4d4f-a91c-3f4797415e3a",
         "annotations": [
           {
@@ -51899,6 +49270,331 @@
             "mode": "import",
             "source": {
               "expression": "Calendar(Date(Year(MIN('FactCQCLocationsRawData'[Previous rating date])), 1, 1), Date(Year(MAX('FactCQCLocationsRawData'[Previous rating date])), 12, 31))",
+              "type": "calculated"
+            }
+          }
+        ],
+        "showAsVariationsOnly": true
+      },
+      {
+        "name": "Dim AT Users",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Facility Code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "2eb7c087-1eeb-4be7-b5b9-a8eaab89e759",
+            "sourceColumn": "Facility Code",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Cost Centre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "a92ff2bd-c602-4d52-aae8-5885d821461f",
+            "sourceColumn": "Cost Centre",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Head of Ops",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "28b25114-e365-4ff7-b2d5-f02b50da4330",
+            "sourceColumn": "Head of Ops",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Regional Manager",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "541946c2-80ec-4b67-bed2-25719e1f2341",
+            "sourceColumn": "Regional Manager",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Home Manager",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "8a09a095-3cc0-4ed7-9e91-2792c1e611e8",
+            "sourceColumn": "Home Manager",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Domcare Manager Email",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "5dd91329-9fe2-4fc1-940c-be186068deec",
+            "sourceColumn": "Domcare Manager Email",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Central Executive",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "5e52881c-1633-4f01-93db-ca65fc54aab7",
+            "sourceColumn": "Central Executive",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "2cf57f50-72bc-44ec-bfb8-7be8739b357d",
+        "partitions": [
+          {
+            "name": "Dim AT Users",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Sql.Database(\"sqlminstanceatprod.public.6ebcd2a481ea.database.windows.net,3342\", \"atdmp\", [Query=\"select distinct [FacilityCode],[Costcentre],HeadofOps,RegionalManager,HomeManager,DomcareManagerEmail,1 as Central_Executive from DimATUsers where ([FacilityCode] is not null or [Costcentre] is not null)\"]),",
+                "    #\"Renamed Columns\" = Table.RenameColumns(Source,{{\"FacilityCode\", \"Facility Code\"}, {\"Central_Executive\", \"Central Executive\"}, {\"Costcentre\", \"Cost Centre\"}, {\"DomcareManagerEmail\", \"Domcare Manager Email\"}, {\"HeadofOps\", \"Head of Ops\"}, {\"HomeManager\", \"Home Manager\"}, {\"RegionalManager\", \"Regional Manager\"}})",
+                "in",
+                "    #\"Renamed Columns\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "LocalDateTable_260bd2f0-0593-4e49-9b6b-05d3e6bcc6f9",
+        "annotations": [
+          {
+            "name": "__PBI_LocalDateTable",
+            "value": "true"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "4e4dc1b6-d4d6-4429-bed9-cbde893bcb93",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "isHidden": true,
+            "lineageTag": "f2051a2e-4e88-4dde-8741-c13ce309a3ca",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "isHidden": true,
+            "lineageTag": "136da554-e755-4d12-868d-f6c5b3b75818",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "4686a747-e398-4ed3-8c61-d1e4540240d4",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "isHidden": true,
+            "lineageTag": "af9163a4-6d22-4682-903e-e32df6d70be5",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Quarter",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Qtr \" & [QuarterNo]",
+            "isHidden": true,
+            "lineageTag": "732f8a84-7c90-4e09-91b2-d1414863fa87",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Day",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "isHidden": true,
+            "lineageTag": "06e00f39-2653-449e-bca3-86dbdb874d71",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Date Hierarchy",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Year",
+                "column": "Year",
+                "lineageTag": "4d6f98f2-dcdb-4994-8426-719c9f9cb540",
+                "ordinal": 0
+              },
+              {
+                "name": "Quarter",
+                "column": "Quarter",
+                "lineageTag": "355fa9cf-8ffe-47a2-9c2a-c802baa62078",
+                "ordinal": 1
+              },
+              {
+                "name": "Month",
+                "column": "Month",
+                "lineageTag": "c86e12df-9528-43f6-a005-4b728b328388",
+                "ordinal": 2
+              },
+              {
+                "name": "Day",
+                "column": "Day",
+                "lineageTag": "9862bdd7-fc48-4c7f-a84e-785b7bf3d63a",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "6620e311-ee81-4a79-9cdb-49f9e7616c27"
+          }
+        ],
+        "isHidden": true,
+        "lineageTag": "9ddcc6fc-294a-473e-a985-c5ebf4b1eff1",
+        "partitions": [
+          {
+            "name": "LocalDateTable_260bd2f0-0593-4e49-9b6b-05d3e6bcc6f9",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(Year(MIN('FactCQCLocationsRawData'[Current rating date])), 1, 1), Date(Year(MAX('FactCQCLocationsRawData'[Current rating date])), 12, 31))",
               "type": "calculated"
             }
           }
